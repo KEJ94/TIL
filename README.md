@@ -1,5 +1,5 @@
 ## Java
-- [입력 (Scanner, InputStream, BufferedReader)](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
+- [입력](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
 
 <br>
 
