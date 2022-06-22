@@ -1,5 +1,6 @@
 ## Flyway
 flyway는 데이터베이스의 형상관리를 목적으로 하는 툴 이다.
+
 <br><br>
 ## 마이그레이션 파일
 flyway에서는 데이터베이스에 일어나는 모든 행위를 마이그레이션(migration) 이라고 표현 한다.  
@@ -17,6 +18,7 @@ __V220622.001__VADA.sql__
 __V1__VADA.sql__  
 
 파일명 외 세팅이 정상일 경우 Spring Boot 배너가 뜨면서 DbMigrate 로깅을 확인할 수 있다.
+
 <br><br>
 ## flyway_schema_history 테이블
 해당 테이블은 flyway 에서 형상관리를 위하여 자동으로 만드는 테이블이다.
@@ -31,6 +33,7 @@ Spring Boot가 실행되면 가장 먼저 flyway가 실행하게 된다. 이때 
 - 가장 많이 발생하는 에러는 한번 flyway 로 서비스를 모두 올린 후 일부 파일을 수정하여 checksum이 틀어지게 되어 발생하는 에러다. 해결 방법으로 2가지가 있다.
   - 첫번째 : 해당 row를 포함한 이후 row를 삭제하고 다시 올리는방법
   - 두번째 : checksum을 강제로 수정하고(repair 또는 수동으로 수정) success를 1로 돌리는 방법
+
 <br><br>
 ## REPAIR
 repair는 checksum이 틀어지는 등의 문제가 생겼을 때 자동으로 checksum을 맞춰주는 방법이다.
@@ -44,6 +47,7 @@ public FlywayMigrationStrategy cleanMigrateStrategy() {
     };
 }
 ```
+
 <br><br>
 ## 알아두면 좋은 점
 하나의 파일에 2개의 DDL은 좋지 않다. flyway는 checksum을 파일 단위로 관리하며 파일에 문제가 생겼을 때 이 이후의 로직을 실행하지 않기 때문에 DDL은 파일 하나씩 두는것을 추천한다.
