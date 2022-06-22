@@ -3,5 +3,5 @@
 
 <br>
 
-## 데이터베이스
+## DB
 - [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
