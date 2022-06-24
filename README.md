@@ -11,3 +11,4 @@
 
 ## DB
 - [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
+- [외부접속](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md)
