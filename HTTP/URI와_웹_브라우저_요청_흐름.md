@@ -23,7 +23,8 @@ HTTP 응답 메시지
 ```
 HTTP/1.1 200 OK
 Content-Type: text/html;charset=UTF-8
-Content-Length: 3423
+Content-Length: 3423  
+
 <html>
   <body>...</body>
 </html>
