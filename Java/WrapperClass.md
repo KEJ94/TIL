@@ -33,20 +33,6 @@ Integer c = b
 ### WrapperClass 구조
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FZolLT%2Fbtq8R0SHB75%2FIfszu8aary6ZEM8Jo6tANK%2Fimg.png)  
 
-### 문자열을 기본 타입 값으로 반환
-```
-String str = "10";
-String str2 = "10.5";
-String str3 = "true";
-        
-byte b = Byte.parseByte(str);
-int i = Integer.parseInt(str);
-short s = Short.parseShort(str);
-long l = Long.parseLong(str);
-float f = Float.parseFloat(str2);
-double d = Double.parseDouble(str2);
-boolean bool = Boolean.parseBoolean(str3);
-```
 ### 값 비교
 ```
 Integer num = new Integer(10); //래퍼 클래스1
@@ -59,7 +45,23 @@ System.out.println("래퍼클래스 == 래퍼클래스 : "+(num == num2)); //fal
 System.out.println("래퍼클래스.equals(래퍼클래스) : "+num.equals(num2)); //true
 ```
 ### 사용하는 이유
-- 기본 데이터 타입을 Object로 변환할 수 있다.
-- java.util 패키지의 클래스는 객체만 처리하므로 WrapperClass는 이 경우에도 도움이 된다.
-- 컬렉션 프레임워크의 데이터 구조는 기본 타입이 아닌 객체만 저장하게 되고, WrapperClass를 사용하여 AutoBoxing/AutoUnBoxing
+- __첫째__ 제네릭
+```
+HashMap<Object, int> // Syntax error, insert "Dimensions" to complete ReferenceType
+HashMap<Object, Integer>
+```
+- __둘째__ 기본 자료형의 값을 문자열로 변환 혹은 반대 경우
+```
+String str = "10";
+String str2 = "10.5";
+String str3 = "true";
+        
+byte b = Byte.parseByte(str);
+int i = Integer.parseInt(str);
+short s = Short.parseShort(str);
+long l = Long.parseLong(str);
+float f = Float.parseFloat(str2);
+double d = Double.parseDouble(str2);
+boolean bool = Boolean.parseBoolean(str3);
+```  
 <br><br><br>
