@@ -71,7 +71,10 @@
 ### Stateless를 기억하자
 - 정말 같은 시간에 딱 맞추어 발생하는 대용량 트래픽
 - 예) 선착순 이벤트, 명절 KTX 예약, 학과 수업 등록
-- 예) 저녁 6:00 선착순 1000명 치킨 할인 이벤트 
+- 예) 저녁 6:00 선착순 1000명 치킨 할인 이벤트  
 <br><br>
 # HTTP 메시지  
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc8GMAE%2FbtrDcEfltJ8%2FR40s5hCmo3r7x9jMzddslk%2Fimg.png)  
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbGiXAT%2FbtrDfDlWqbv%2FWy6AIq6gqcpMnKGnk6toF0%2Fimg.png)  
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FQyrPE%2FbtrDfB9wjOI%2Fs1kpv88AtR9IijnhNSNUkk%2Fimg.png)   
 <br><br>
