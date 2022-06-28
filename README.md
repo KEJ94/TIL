@@ -26,4 +26,5 @@
 - [인터넷 네트워크](https://github.com/KEJ94/TIL/blob/main/HTTP/인터넷_네트워크.md)
 - [URI와 웹 브라우저 요청 흐름](https://github.com/KEJ94/TIL/blob/main/HTTP/URI와_웹_브라우저_요청_흐름.md)
 - [HTTP 기본](https://github.com/KEJ94/TIL/blob/main/HTTP/HTTP_기본.md)
+- [HTTP 메서드](https://github.com/KEJ94/TIL/blob/main/HTTP/HTTP_메서드.md)
 <br>
