@@ -30,6 +30,6 @@
 - [HTTP 헤더](https://github.com/KEJ94/TIL/blob/main/HTTP/HTTP_헤더.md)
 <br>
 
-## CI/CD
- - [기본](https://github.com/KEJ94/TIL/blob/main/CI_CD/기본.md)
+## 기타
+ - [CI/CD](https://github.com/KEJ94/TIL/blob/main/기타/CI_CD.md)
 <br>
