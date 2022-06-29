@@ -34,6 +34,35 @@
 - 실제로는 GET, HEAD 정도만 캐시로 사용  
 <br><br> 
 # 클라이언트에서 서버로 데이터 전송  
+### 데이터 전달 방식은 크게 2가지  
+- 쿼리 파라미터를 통한 데이터 전송(GET)
+- 메시지 바디를 통한 데이터 전송(POST, PUT, PATCH)  
+### 정적 데이터 조회  
+- GET /static/star.jpg HTTP/1.1
+- 조회는 GET 사용
+- 이미지, 정적 텍스트 문서
+- 정적 데이터는 일반적으로 쿼리 파라미터 없이 리소스 경로로 단순하게 조회 가능  
+### 동적 데이터 조회
+- GET /search?q=helo&hl=ko HTTP/1.1
+- 조회는 GET 사용
+- 주로 검색, 게시판 목록에서 정렬 필터(검색어)
+- 쿼리 파라미터를 사용해서 데이터 전달  
+### HTML Form 데이터 전송
+- __GET, POST 만 지원__ name 속성 데이터 전달
+- ```multipart/form-data```  
+  - 파일 업로드 같은 바이너리 데이터 전송시 사용
+  - 다른 종류의 여러 파일과 폼의 내용 함께 전송 가능(그래서 이름이 multipart)
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FeCIHuD%2FbtrDnjVS4EI%2FjbbiDAeVTm4CdalRysd1kK%2Fimg.png)  
+### HTTP API 데이터 전송
+- 서버 to 서버
+  - 백엔드 시스템 통신
+- 앱 클라이언트 
+  - 아이폰, 안드로이드
+- 웹 클라이언트
+  - HTML 에서 Form 전송 대신 자바스크립트를 통한 통신에 사용(AJAX)
+- Content-Type: application/json을 주로 사용 (사실상 표준)
+  - TEXT, XML, JSON 등등 (JSON 이 표준)  
+<
 
 
 
