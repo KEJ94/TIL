@@ -62,7 +62,7 @@
   - HTML 에서 Form 전송 대신 자바스크립트를 통한 통신에 사용(AJAX)
 - Content-Type: application/json을 주로 사용 (사실상 표준)
   - TEXT, XML, JSON 등등 (JSON 이 표준)  
-<
+<br><br>
 
 
 
