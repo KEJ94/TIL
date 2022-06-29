@@ -29,3 +29,7 @@
 - [HTTP 메서드](https://github.com/KEJ94/TIL/blob/main/HTTP/HTTP_메서드.md)
 - [HTTP 헤더](https://github.com/KEJ94/TIL/blob/main/HTTP/HTTP_헤더.md)
 <br>
+
+## CI/CD
+ - [기본](https://github.com/KEJ94/TIL/blob/main/CI_CD/기본.md)
+<br>
