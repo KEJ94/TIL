@@ -52,5 +52,3 @@ public FlywayMigrationStrategy cleanMigrateStrategy() {
 ## 알아두면 좋은 점
 하나의 파일에 2개의 DDL은 좋지 않다. flyway는 checksum을 파일 단위로 관리하며 파일에 문제가 생겼을 때 이 이후의 로직을 실행하지 않기 때문에 DDL은 파일 하나씩 두는것을 추천한다.
 <br><br>
-
-출처 : https://sabarada.tistory.com/193
