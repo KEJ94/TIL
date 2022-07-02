@@ -53,6 +53,56 @@ Content-Length: 3423
 ### Content-Length 표현 데이터의 길이
 - 바이트 단위
 - Transfer-Encoding(전송코딩)을 사용하면 Content-Length를 사용하면 안됨  
+<br><br>
+## 컨텐츠 협상
+- Accept : 클라이언트가 선호하는 미디어 타입 전달
+- Accept-Charset : 클라이언트가 선호하는 문자 인코딩
+- Accept-Encoding : 클라이언트가 선호하는 압축 인코딩
+- Accept-Language : 클라이언트가 선호하는 자연 언어
+- 협상 헤더는 요청시에만 사용
 
+### Accept-Language 적용전 한국어 브라우저 사용
+클라이언트 요청
+```
+GET /event
+Accept-Language : ko
+```
+다중 언어 지원 서버 응답
+```
+Content-Language : ko
+안녕하세요
+```  
+
+### 협상과 우선순위 1
+- Quality Values(q) 값 사용
+- 0~1 클수록 높은 우선순위
+- 생략하면 1
+- Accept-Language : ko-KR,ko;q=0.9,en-US;q=0.8,eb;q=0.7
+ 1. ko-KR;q=1 (q생략)
+ 2. ko;q=0.9
+ 3. en-US;q=0.8
+ 4. en;q=0.7  
+
+### 협상과 우선순위 2
+- 구체적인 것이 우선이다.
+- Accpet : text/*, text/plain, text/plain;format=flowed, /*
+ 1. text/plain;format=flowed
+ 2. text/plain
+ 3. text/*
+ 4. /*
+
+구글에서 검색 후 ```Network - Headers - Request Headers``` 확인해보자  
+<br><br>
+## 전송 방식 설명
+### 단순 전송 (Content-Length)
+```
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=UTF-8
+Content-Length: 3423
+
+<html>
+ <body>...</body>
+</html>
+```
 
 
