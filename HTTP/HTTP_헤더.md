@@ -93,7 +93,7 @@ Content-Language : ko
 
 구글에서 검색 후 ```Network - Headers - Request Headers``` 확인해보자  
 <br><br>
-## 전송 방식 설명
+## 전송 방식
 ### 단순 전송 (Content-Length)
 ```
 HTTP/1.1 200 OK
@@ -104,5 +104,44 @@ Content-Length: 3423
  <body>...</body>
 </html>
 ```
+3423 바이트로 보낸다고 미리 알려주고 한번에 전송, 한번에 받는다.
+### 압축 전송 (Content-Encoding)
+```
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=UTF-8
+Content-Encoding: gzip
+Content-Length: 521
+
+qwdion102e120n1029rn1203120nd012nd0n10d229
+```
+용량이 줄어들고 뭘로 압축되어있는지 (gzip) 알려주고 보낸다.
+### 분할 전송 (Transfer-Encoding)
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+
+5
+Hello
+5
+World
+0
+\r\n
+```
+분할전송때는 Content-Length 를 보내지 않는다. 
+### 범위 전송 (Range, Content-Range)
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Range: bytes 1001-2000 / 2000
+
+qoiwdnqoido1ind1029dn102dn1290dn9012nd012n
+```
+이미지를 받는데 도중에 끊긴 경우 다시 요청하면 용량이 아깝기 때문에 범위를 지정해서 요청할 수 있다.  
+<br><br>
+## 일반 정보
+
+
+
 
 
