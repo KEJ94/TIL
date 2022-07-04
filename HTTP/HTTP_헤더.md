@@ -91,7 +91,7 @@ Content-Language : ko
  3. text/*
  4. /*
 
-구글에서 검색 후 ```Network - Headers - Request Headers``` 확인해보자  
+구글(Chrome)에서 검색 후 ```F12 - Network - Headers - Request Headers``` 확인해보자  
 <br><br>
 ## 전송 방식
 ### 단순 전송 (Content-Length)
@@ -114,7 +114,7 @@ Content-Length: 521
 
 qwdion102e120n1029rn1203120nd012nd0n10d229
 ```
-용량이 줄어들고 뭘로 압축되어있는지 (gzip) 알려주고 보낸다.
+용량이 줄어들고 어떻게 압축되어있는지 (gzip) 알려주고 보낸다.
 ### 분할 전송 (Transfer-Encoding)
 ```
 HTTP/1.1 200 OK
@@ -128,7 +128,7 @@ World
 0
 \r\n
 ```
-분할전송때는 Content-Length 를 보내지 않는다. 
+분할 전송때는 Content-Length 를 보내지 않는다. 
 ### 범위 전송 (Range, Content-Range)
 ```
 HTTP/1.1 200 OK
