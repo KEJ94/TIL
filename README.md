@@ -2,6 +2,10 @@
 - []()
 <br>
 
+## JPA
+- []()
+<br>
+
 ## Java
 - [실행](https://github.com/KEJ94/TIL/blob/main/Java/실행.md)
 - [입력](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
