@@ -22,6 +22,10 @@
 - [외부접속](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md)
 <br>
 
+## Redis
+- []()
+<br>
+
 ## AWS
 - []()
 <br>
