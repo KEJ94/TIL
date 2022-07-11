@@ -42,7 +42,7 @@
 - [기본](https://github.com/KEJ94/TIL/blob/main/GraphQL/기본.md)
 <br>
   
-## 기타
+## 
  - [좋은 객체 지향 설계의 5가지 원칙(SOLID)](https://github.com/KEJ94/TIL/blob/main/기타/좋은_객체_지향_설계의_5가지_원칙(SOLID).md)
  - [CI/CD](https://github.com/KEJ94/TIL/blob/main/기타/CI_CD.md)
  - [JSON](https://github.com/KEJ94/TIL/blob/main/기타/JSON.md)
