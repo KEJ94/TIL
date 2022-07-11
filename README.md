@@ -17,9 +17,9 @@
 - []()
 <br>
 
-## DB
-- [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
-- [외부접속](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md)
+## MariaDB
+- [Flyway](https://github.com/KEJ94/TIL/blob/main/MariaDB/Flyway.md)
+- [외부접속](https://github.com/KEJ94/TIL/blob/main/MariaDB/외부접속.md)
 <br>
 
 ## Redis
