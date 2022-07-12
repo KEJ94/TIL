@@ -17,11 +17,11 @@
 - 지속적인 제공 (Continuous Delivery)
   - CI(Build, Test) 
   - Prepare Release(릴리즈할 준비 단계)
-  - ```수동적으로 검증 > DEPLOY RELEASE ``` 
+  - __수동적으로 검증 > DEPLOY RELEASE__
 - 지속적인 배포 (Continuous Deployment) 
   - CI(Build, Test) 
   - Prepare Release(릴리즈할 준비 단계)
-  - ```자동적으로 검증 > DEPLOY RELEASE```
+  - __자동적으로 검증 > DEPLOY RELEASE__
 
 ### Tool
 - Jenkins
