@@ -25,7 +25,7 @@
 - HTTP/2, HTTP/3 도 점점 증가  
 <br><br>
 # 클라이언트 서버 구조  
-- Request Response 구조
+- Request, Response 구조
 - 클라이언트는 서버에 요청을 보내고, 응답을 대기
 - 서버가 요청에 대한 결과를 만들어서 응답  
 <br><br>
