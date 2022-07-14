@@ -26,7 +26,7 @@ __V1__VADA.sql__
 눈여겨 봐야할 정보는 version, checksum, success 이다.
 - version은 파일의 V 뒤에 붙어있던 숫자로 낮은 순서부터 실행되며 실행 순서대로 테이블에 쌓이는 구조
 - checksum은 파일의 내용을 hashing 한 것, 만약 파일의 내용이 달라지면 이 체크섬이 달라지게 된다. __한번 체크섬을 만들어 둔 후 파일을 수정한다면 누군가에 의해서 형상관리에 문제가 생겼다고 판단하기 때문에 flyway는 에러처리를 하게된다.__ 이럴 경우 해당 파일에 대한 체크섬을 repair한 후 success를 0으로 돌리는등의 작업이 필요하다.
-- success는 파일 실행에 성공여부를 나타내는 값이다. 이 값에 따라서 flyway에서 해당 파일의 내용을 실행할지 말지 정한다.
+- success는 파일 실행에 성공여부를 나타내는 값이다. 이 값에 따라서 flyway에서 해당 파일의 내용을 실행할지 말지 정한다.  
 <br><br>
 ## 발생할 수 있는 에러
 SpringBoot가 실행되면 가장 먼저 flyway가 실행하게 된다. 이때 발생할 수 있는 에러에 대해 알아보자
@@ -46,8 +46,13 @@ public FlywayMigrationStrategy cleanMigrateStrategy() {
         flyway.migrate();
     };
 }
+```  
+<br><br>
+## Spring (application.properties)
 ```
-
+# flyway 자동 사용 유무
+flyway.enabled=false
+```  
 <br><br>
 ## 알아두면 좋은 점
 하나의 파일에 2개의 DDL은 좋지 않다. flyway는 checksum을 파일 단위로 관리하며 파일에 문제가 생겼을 때 이 이후의 로직을 실행하지 않기 때문에 DDL은 파일 하나씩 두는것을 추천한다.
