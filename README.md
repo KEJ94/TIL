@@ -13,7 +13,7 @@
 - [문자열 변환](https://github.com/KEJ94/TIL/blob/main/Java/문자열_변환.md)
 <br>
 
-## JS
+## Vue
 - []()
 <br>
 
