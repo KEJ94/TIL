@@ -51,4 +51,5 @@
  - [CI/CD](https://github.com/KEJ94/TIL/blob/main/Other/CI_CD.md)
  - [JSON](https://github.com/KEJ94/TIL/blob/main/Other/JSON.md)
  - [Kendo UI](https://github.com/KEJ94/TIL/blob/main/Other/Kendo_UI.md)
+ - [MyBatis](https://github.com/KEJ94/TIL/blob/main/Other/MyBatis.md)
 <br>
