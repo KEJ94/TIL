@@ -43,14 +43,11 @@
 - [HTTP 헤더](https://github.com/KEJ94/TIL/blob/main/HTTP/HTTP_헤더.md)
 <br>
 
-## GraphQL
-- [기본](https://github.com/KEJ94/TIL/blob/main/GraphQL/기본.md)
-<br>
-  
 ## Other
  - [좋은 객체 지향 설계의 5가지 원칙(SOLID)](https://github.com/KEJ94/TIL/blob/main/Other/좋은_객체_지향_설계의_5가지_원칙(SOLID).md)
  - [CI/CD](https://github.com/KEJ94/TIL/blob/main/Other/CI_CD.md)
  - [JSON](https://github.com/KEJ94/TIL/blob/main/Other/JSON.md)
  - [Kendo UI](https://github.com/KEJ94/TIL/blob/main/Other/Kendo_UI.md)
  - [Mybatis](https://github.com/KEJ94/TIL/blob/main/Other/Mybatis.md)
+ - [GraphQL](https://github.com/KEJ94/TIL/blob/main/Other/GraphQL.md)
 <br>
