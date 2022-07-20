@@ -13,7 +13,7 @@ switch case 문과 비슷하다고 보면된다.
 	<otherwise> 쿼리문5 </otherwise>
 </choose>  
 ```
-if는 조건식이 둘다 true 면 쿼리문 2개를 실행한다.
+if문과 다른점은 if문은 조건식이 둘다 true 면 쿼리문 2개를 실행한다.
 ```
 <select id="findActiveBlogLike" resultType="Blog">
   SELECT * FROM BLOG WHERE state = ‘ACTIVE’
