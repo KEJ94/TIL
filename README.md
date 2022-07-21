@@ -50,4 +50,5 @@
  - [Kendo UI](https://github.com/KEJ94/TIL/blob/main/Other/Kendo_UI.md)
  - [Mybatis](https://github.com/KEJ94/TIL/blob/main/Other/Mybatis.md)
  - [GraphQL](https://github.com/KEJ94/TIL/blob/main/Other/GraphQL.md)
+ - [SSO](https://github.com/KEJ94/TIL/blob/main/Other/SSO.md)
 <br>
