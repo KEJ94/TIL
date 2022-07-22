@@ -1,11 +1,7 @@
 ### Spring
 - [프로젝트 생성](https://github.com/KEJ94/TIL/blob/main/Spring/프로젝트_생성.md)
 - [비동기 메서드](https://github.com/KEJ94/TIL/blob/main/Spring/비동기_메서드.md)
-<br>
-
-### JPA
-- []()
-<br>
+<br>  
 
 ### Java
 - [실행](https://github.com/KEJ94/TIL/blob/main/Java/실행.md)
