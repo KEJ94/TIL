@@ -45,4 +45,5 @@
  - [SSO](https://github.com/KEJ94/TIL/blob/main/Other/SSO.md)
  - [Docker](https://github.com/KEJ94/TIL/blob/main/Other/Docker.md)
  - [JPA](https://github.com/KEJ94/TIL/blob/main/Other/JPA.md)
+ - [Redis](https://github.com/KEJ94/TIL/blob/main/Other/Redis.md)
 <br>
