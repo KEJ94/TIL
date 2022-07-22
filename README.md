@@ -28,7 +28,7 @@
 <br>
 
 ### AWS
-- []()
+- [EC2](https://github.com/KEJ94/TIL/blob/main/AWS/EC2.md)
 <br>
 
 ### Docker
