@@ -1,5 +1,5 @@
 ### EC2 소개
-EC2는 Elastic Compute Colude 이다.  
+EC2는 Elastic Compute Cloud 이다.  
 원하는 만큼 CPU, 메모리, 디스크, OS 등 자원의 크기를 선택하고 서버를 생성할 수 있다.  
 쉽게 말해서 필요한 만큼 자원을 대여해서 사용할 수 있다.  
 <br><br>
