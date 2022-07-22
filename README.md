@@ -23,16 +23,8 @@
 - [외부접속](https://github.com/KEJ94/TIL/blob/main/MariaDB/외부접속.md)
 <br>
 
-### Redis
-- []()
-<br>
-
 ### AWS
 - [EC2](https://github.com/KEJ94/TIL/blob/main/AWS/EC2.md)
-<br>
-
-### Docker
-- [기본](https://github.com/KEJ94/TIL/blob/main/Docker/기본.md)
 <br>
 
 ### Network
