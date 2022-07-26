@@ -16,7 +16,7 @@
 <br>
 
 ### Vue
-- [설치](https://github.com/KEJ94/TIL/blob/main/Vue/설치.md)
+- [프로젝트 생성](https://github.com/KEJ94/TIL/blob/main/Vue/프로젝트_생성.md)
 <br>
 
 ### MariaDB
