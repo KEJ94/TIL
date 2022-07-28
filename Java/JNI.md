@@ -91,9 +91,9 @@ JNIEXPORT jint JNICALL Java_com_jiransnc_vada_util_VADAJni_conn(){
 ```  
 <br><br>
 ## 4. dll 생성 
-C:\Users\kth\Documents\GitHub\vada\src> 경로에  
-java path 경로 > include > jni.h 와  
-java path 경로 > include > win32 > jni_md.h 를 추가  
+C:\Users\kth\Documents\GitHub\vada\src> 경로에 아래 파일 2개 추가  
+jdk path > include > __jni.h__   
+jdk path > include > win32 > __jni_md.h__ 
 
 __[CMD]__ VADAJni.o 파일을 생성
 ```
