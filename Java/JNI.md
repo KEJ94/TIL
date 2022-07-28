@@ -39,7 +39,8 @@ public class VADAJni {
 ```
 <br><br>
 ## 2. 자바 헤더 생성
-컴파일은 클래스 파일이 위치한 상위 디렉터리까지 이동 후 명령어 실행
+컴파일은 클래스 파일이 위치한 상위 디렉터리까지 이동 후 명령어 실행  
+<br>
 __[CMD]__ 컴파일 
 ```
 C:\Users\kth\Documents\GitHub\vada\src\main\java\com\jiransnc\vada\util>javac VADAJni.java
