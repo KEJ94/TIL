@@ -110,7 +110,7 @@ C:\Users\kth\Documents\GitHub\vada\src>gcc -shared -o VADAJni.dll VADAJni.o
 - include 안에 있는 jni.h 랑 include/win32 안에 있는 jni_md.h 를 src 안에 집어넣음
 - src 하위 경로 외 다른경로에서 헤더파일 생성이 안되었음
 - success 말고 success7 이 출력
-- 실제로 적용할 때 .dll 파일 또는 .so 파일을 받고 작업할텐데 __3. C에 자바 헤더 첨부__ dll,so 파일을 c 로 변환해야되는 작업까지 고려해야할듯   
+- 실제로 적용할 때 .dll 파일 또는 .so 파일을 받고 작업할텐데 __3. C에 자바 헤더 첨부__ 작업을 위해서 dll,so 파일을 c 로 변환해야되는것 까지 고려해야할듯   
 <br><br>
 
 
