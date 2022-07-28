@@ -104,7 +104,7 @@ __[CMD]__ VADAJni.dll 파일을 생성 후 VADAJni.java 실행
 C:\Users\kth\Documents\GitHub\vada\src>gcc -shared -o VADAJni.dll VADAJni.o
 ```  
 <br><br>
-## 실습 중 특이사항
+## 특이사항
 - VADAJni.h #include <jni.h> 에서 "jni.h" 로 수정
 - VADAJni.h 안의 conn 내용 수정 (매개변수를 제거)
 - include 안에 있는 jni.h 랑 include/win32 안에 있는 jni_md.h 를 src 안에 집어넣음
