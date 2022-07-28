@@ -8,7 +8,7 @@ C언어 컴파일을 위해 mingw 를 설치한다.
 실습 당시(2022-07-27) 최신버전의 exe파일에 문제가있어 zip파일로 다운로드 후 환경변수 지정  
 <br><br>
 ## 실습 순서 (Window)  
-실습목표 : Spring 프로젝트내 util 디렉터리 안에 Jni 사용 클래스를 만들어서 사용
+목표 : Spring MVC 프로젝트의 util 디렉터리 안에 JNI 클래스를 만들어서 사용  
 - 자바 코드 작성
 - 자바 헤더 생성
 - C에 자바 헤더 첨부
@@ -110,6 +110,7 @@ C:\Users\kth\Documents\GitHub\vada\src>gcc -shared -o VADAJni.dll VADAJni.o
 - include 안에 있는 jni.h 랑 include/win32 안에 있는 jni_md.h 를 src 안에 집어넣음
 - src 하위 경로 외 다른경로에서 헤더파일 생성이 안되었음
 - success 말고 success7 이 출력
+- 실제로 적용할 때 .dll 파일 또는 .so 파일을 받고 작업할텐데 __3. C에 자바 헤더 첨부__ dll,so 파일을 c 로 변환해야되는 작업까지 고려해야할듯   
 <br><br>
 
 
