@@ -109,7 +109,7 @@ C:\Users\kth\Documents\GitHub\vada\src>gcc -shared -o VADAJni.dll VADAJni.o
 - VADAJni.h 안의 conn 내용 수정 (매개변수 제거)
 - include 안에 있는 __jni.h__ 랑 include/win32 안에 있는 __jni_md.h__ 를 src 안에 넣음
 - src 하위 경로 외 다른경로에서 헤더파일 생성이 안되었음
-- success 말고 success7 이 출력   
+- success 말고 success7 출력   
 <br><br>
 
 
