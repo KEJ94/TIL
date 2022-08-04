@@ -95,11 +95,11 @@ C:\Users\kth\Documents\GitHub\vada\src> 경로에 아래 파일 2개 추가
 jdk path > include > __jni.h__   
 jdk path > include > win32 > __jni_md.h__ 
 
-__[CMD]__ VADAJni.o 파일을 생성
+__[CMD]__ VADAJni.o 파일 생성
 ```
 C:\Users\kth\Documents\GitHub\vada\src>gcc -fpic -c -l"\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.322-1\include" -l"\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.322-1\include\win32" VADAJni.c
 ```
-__[CMD]__ VADAJni.dll 파일을 생성 후 VADAJni.java 실행 
+__[CMD]__ VADAJni.dll 파일 생성 후 VADAJni.java 실행 
 ```
 C:\Users\kth\Documents\GitHub\vada\src>gcc -shared -o VADAJni.dll VADAJni.o
 ```  
