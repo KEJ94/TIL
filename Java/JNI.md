@@ -22,7 +22,7 @@ public class VADAJni {
     static { 
         /*
         *   Native 동적 라이브러리 (Windows 에서는 .dll 파일, Linux 에서는 .so 파일)를 로딩한다.
-        *   즉 libhello.so(Linux) 또는 hello.dll(Windows) 를 로딩한다는 의미이다.
+        *   즉 hello.so(Linux) 또는 hello.dll(Windows) 를 로딩한다는 의미이다.
         */
         System.load("C:\\Users\\kth\\Documents\\GitHub\\vada\\src\\VADAJni.dll"); 
     }
