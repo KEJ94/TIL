@@ -38,16 +38,18 @@
 - [HTTP 헤더](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_헤더.md)
 <br>
 
-### Other
- - [SOLID](https://github.com/KEJ94/TIL/blob/main/Other/SOLID.md)
- - [CI/CD](https://github.com/KEJ94/TIL/blob/main/Other/CI_CD.md)
- - [JSON](https://github.com/KEJ94/TIL/blob/main/Other/JSON.md)
- - [Kendo UI](https://github.com/KEJ94/TIL/blob/main/Other/Kendo_UI.md)
- - [Mybatis](https://github.com/KEJ94/TIL/blob/main/Other/Mybatis.md)
- - [GraphQL](https://github.com/KEJ94/TIL/blob/main/Other/GraphQL.md)
- - [SSO](https://github.com/KEJ94/TIL/blob/main/Other/SSO.md)
- - [Docker](https://github.com/KEJ94/TIL/blob/main/Other/Docker.md)
- - [JPA](https://github.com/KEJ94/TIL/blob/main/Other/JPA.md)
- - [Redis](https://github.com/KEJ94/TIL/blob/main/Other/Redis.md)
- - [암호화](https://github.com/KEJ94/TIL/blob/main/Other/암호화.md)
+### ETC
+ - [SOLID](https://github.com/KEJ94/TIL/blob/main/ETC/SOLID.md)
+ - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
+ - [JSON](https://github.com/KEJ94/TIL/blob/main/ETC/JSON.md)
+ - [Kendo UI](https://github.com/KEJ94/TIL/blob/main/ETC/Kendo_UI.md)
+ - [Mybatis](https://github.com/KEJ94/TIL/blob/main/ETC/Mybatis.md)
+ - [GraphQL](https://github.com/KEJ94/TIL/blob/main/ETC/GraphQL.md)
+ - [SSO](https://github.com/KEJ94/TIL/blob/main/ETC/SSO.md)
+ - [Docker](https://github.com/KEJ94/TIL/blob/main/ETC/Docker.md)
+ - [JPA](https://github.com/KEJ94/TIL/blob/main/ETC/JPA.md)
+ - [Redis](https://github.com/KEJ94/TIL/blob/main/ETC/Redis.md)
+ - [암호화](https://github.com/KEJ94/TIL/blob/main/ETC/암호화.md)
 <br>
+
+### Error
