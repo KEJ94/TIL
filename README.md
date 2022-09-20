@@ -27,7 +27,7 @@
 <br>
 
 ### AWS
-- [EC2](https://github.com/KEJ94/TIL/blob/main/AWS/EC2.md)
+- [기본](https://github.com/KEJ94/TIL/blob/main/AWS/기본.md)
 <br>
 
 ### Network
