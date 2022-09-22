@@ -36,7 +36,7 @@ aws_secret_access_key = YOUR_AWS_SECRET_ACCESS_KEY
   </dependencies>
 ```
 <br><br>
-## 4. EC2 인스턴스에 대한 정보 추출 코드
+## 4. EC2 인스턴스에 대한 정보 불러오기
 ```
 package com.jiransnc.vada.aws;
 import com.amazonaws.regions.Regions;
