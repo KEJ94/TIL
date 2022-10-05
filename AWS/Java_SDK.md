@@ -59,18 +59,47 @@ public class DescribeInstances{
             for(Reservation reservation : response.getReservations()) {
                 for(Instance instance : reservation.getInstances()) {
                     instanceStr = 
+                        "\n" +
                         "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n" +
-                        "InstanceId : "         +instance.getInstanceId()+"\n"+
-                        "ImageId : "            +instance.getImageId()+"\n"+
-                        "InstanceType : "       +instance.getInstanceType()+"\n"+
-                        "privateIpAddress : "   +instance.getPrivateIpAddress()+"\n"+
-                        "publicIpAddress : "    +instance.getPublicIpAddress()+"\n"+
-                        "State : "              +instance.getState()+"\n"+
-                        "SubnetId : "           +instance.getSubnetId()+"\n"+
-                        "VpcId : "              +instance.getVpcId()+"\n"+
-                        "Tags : "               +instance.getTags()+"\n"+
-                        "PlatformDatails :  "   +instance.getPlatform()+"\n"+
-                        "NetworkInterfaces : "  +instance.getNetworkInterfaces()+"\n"+
+                        "Architecture : "                   +instance.getArchitecture()+"\n"+
+                        "ClientToken : "                    +instance.getClientToken()+"\n"+
+                        "Hypervisor : "                     +instance.getHypervisor()+"\n"+
+                        "ImageId : "                        +instance.getImageId()+"\n"+
+                        "InstanceId : "                     +instance.getInstanceId()+"\n"+
+                        "InstanceLifecycle : "              +instance.getInstanceLifecycle()+"\n"+
+                        "InstanceType : "                   +instance.getInstanceType()+"\n"+
+                        "KernelId : "                       +instance.getKernelId()+"\n"+
+                        "KeyName : "                        +instance.getKeyName()+"\n"+
+                        "Platform : "                       +instance.getPlatform()+"\n"+
+                        "PrivateDnsName : "                 +instance.getPrivateDnsName()+"\n"+
+                        "PrivateIpAddress : "               +instance.getPrivateIpAddress()+"\n"+
+                        "PublicDnsName : "                  +instance.getPublicDnsName()+"\n"+
+                        "PublicIpAddress : "                +instance.getPublicIpAddress()+"\n"+
+                        "RamdiskId : "                      +instance.getRamdiskId()+"\n"+
+                        "RootDeviceName : "                 +instance.getRootDeviceName()+"\n"+
+                        "RootDeviceType : "                 +instance.getRootDeviceType()+"\n"+
+                        "SpotInstanceRequestId : "          +instance.getSpotInstanceRequestId()+"\n"+
+                        "SriovNetSupport : "                +instance.getSriovNetSupport()+"\n"+
+                        "StateTransitionReason : "          +instance.getStateTransitionReason()+"\n"+
+                        "SubnetId : "                       +instance.getSubnetId()+"\n"+
+                        "VirtualizationType : "             +instance.getVirtualizationType()+"\n"+
+                        "VpcId : "                          +instance.getVpcId()+"\n"+
+                        "AmiLaunchIndex : "                 +instance.getAmiLaunchIndex()+"\n"+
+                        "BlockDeviceMappings : "            +instance.getBlockDeviceMappings()+"\n"+
+                        "EbsOptimized : "                   +instance.getEbsOptimized()+"\n"+
+                        "ElasticGpuAssociations : "         +instance.getElasticGpuAssociations()+"\n"+
+                        "EnaSupport : "                     +instance.getEnaSupport()+"\n"+
+                        "IamInstanceProfile : "             +instance.getIamInstanceProfile()+"\n"+
+                        "LaunchTime : "                     +instance.getLaunchTime()+"\n"+
+                        "Monitoring : "                     +instance.getMonitoring()+"\n"+
+                        "NetworkInterfaces : "              +instance.getNetworkInterfaces()+"\n"+
+                        "Placement : "                      +instance.getPlacement()+"\n"+
+                        "ProductCodes : "                   +instance.getProductCodes()+"\n"+
+                        "SecurityGroups : "                 +instance.getSecurityGroups()+"\n"+
+                        "SourceDestCheck : "                +instance.getSourceDestCheck()+"\n"+
+                        "State : "                          +instance.getState()+"\n"+
+                        "StateReason : "                    +instance.getStateReason()+"\n"+
+                        "Tags : "                           +instance.getTags()+"\n"+
                         "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n";
                 }
             }
