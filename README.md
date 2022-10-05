@@ -29,6 +29,7 @@
 ### AWS
 - [기본](https://github.com/KEJ94/TIL/blob/main/AWS/기본.md)
 - [Java SDK](https://github.com/KEJ94/TIL/blob/main/AWS/Java_SDK.md)
+- [SSH 연결](https://github.com/KEJ94/TIL/blob/main/AWS/SSH_연결.md)
 <br>
 
 ### Network
