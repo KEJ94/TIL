@@ -58,6 +58,7 @@ public class DescribeInstances{
             DescribeInstancesResult response = ec2.describeInstances(request);
             for(Reservation reservation : response.getReservations()) {
                 for(Instance instance : reservation.getInstances()) {
+		    instanceStr = "";
                     instanceStr = 
                         "\n" +
                         "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n" +
@@ -101,6 +102,7 @@ public class DescribeInstances{
                         "StateReason : "                    +instance.getStateReason()+"\n"+
                         "Tags : "                           +instance.getTags()+"\n"+
                         "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n";
+			System.out.print(instanceStr);
                 }
             }
             request.setNextToken(response.getNextToken());
@@ -108,7 +110,6 @@ public class DescribeInstances{
                 done = true;
             }
         }
-        System.out.print(instanceStr);
     }
 }
 ```  
