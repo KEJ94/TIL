@@ -41,9 +41,9 @@ Java에서 ssh로 접속하려면 jsch 라이브러리를 사용하여 접속한
 	private VADAReturnCode AWSSSHTest(HttpSession s) throws Exception{
 		VADAReturnCode r = VADAReturnCode.SUCCESS;		
 		try{
-	        connectSSH(user, host, privateKey, port);
+			connectSSH(user, host, privateKey, port);
             channelExec = (ChannelExec) session.openChannel("exec");
-            channelExec.setCommand("ls -al");
+            channelExec.setCommand("cat /etc/lsb-release");
             InputStream inputStream = channelExec.getInputStream();
             channelExec.connect();
             byte[] buffer = new byte[8192];
@@ -51,14 +51,13 @@ Java에서 ssh로 접속하려면 jsch 라이브러리를 사용하여 접속한
             StringBuilder response = new StringBuilder();
             while ((decodedLength = inputStream.read(buffer, 0, buffer.length)) > 0)
                 response.append(new String(buffer, 0, decodedLength));
-
 			System.out.println(response.toString());
-
 		}catch(Exception e){
 			e.printStackTrace();
 		}finally{
 			if (session != null) session.disconnect();
 			if (channelExec != null) channelExec.disconnect();
+			System.out.println(" --------------======= CONNECTION END =======-------------- ");
 		}
 		return r;
 	}
@@ -66,20 +65,13 @@ Java에서 ssh로 접속하려면 jsch 라이브러리를 사용하여 접속한
 
 ```
 	private void connectSSH(String user, String host, String privateKey, int port){
+		System.out.println(" --------------======= CONNECTION START =======-------------- ");
 		try{
 			JSch jsch = new JSch();
 			jsch.addIdentity(privateKey);
 			session = jsch.getSession(user, host, port);
 			session.setConfig("StrictHostKeyChecking","no");
-			session.setConfig("GSSAPIAuthentication","no");
-			session.setServerAliveInterval(120 * 1000);
-			session.setServerAliveCountMax(1000);
-			session.setConfig("TCPKeepAlive","yes");
 			session.connect();
-			Channel channel=session.openChannel("shell");
-			channel.setInputStream(System.in);
-			channel.setOutputStream(System.out);
-			channel.connect(3*1000);
 		}catch(Exception e){
 			e.printStackTrace();
 		}
