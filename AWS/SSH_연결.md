@@ -29,73 +29,59 @@ chmod 600 ~/.ssh/your-key.pem
 Java에서 ssh로 접속하려면 jsch 라이브러리를 사용하여 접속한다.  
 일반적인 ssh 접속은 사용자의 아이디, 패스워드를 입력하여 접속하지만, AWS 의 EC2 서버에 접속하려면 pem 인증서로 접속을 한다.  
 ```
-import com.jcraft.jsch.*;
+    import com.jcraft.jsch.*;
 
-public class JConnectEC2shell{
-    //여기에 .pem 파일의 절대경로를 지정한다.
-    private static String keyname = "pem file";
-    //여기에 EC2 instance 도메인 주소를 적는다.
-    private static String publicDNS = "EC2 instance 주소";
-    public static void main(String[] arg){
+    private String user = "ubuntu";
+    private String host = "3.39.233.79";
+    private int port = 22;
+    private String privateKey = "/home/vada/ejkim/AWS_Study_Key.pem";
+    private Session session;
+    private ChannelExec channelExec;
 
-        try{
-            JSch jsch=new JSch();
+	private VADAReturnCode AWSSSHTest(HttpSession s) throws Exception{
+		VADAReturnCode r = VADAReturnCode.SUCCESS;		
+		try{
+	        connectSSH(user, host, privateKey, port);
+            channelExec = (ChannelExec) session.openChannel("exec");
+            channelExec.setCommand("ls -al");
+            InputStream inputStream = channelExec.getInputStream();
+            channelExec.connect();
+            byte[] buffer = new byte[8192];
+            int decodedLength;
+            StringBuilder response = new StringBuilder();
+            while ((decodedLength = inputStream.read(buffer, 0, buffer.length)) > 0)
+                response.append(new String(buffer, 0, decodedLength));
 
-            String user = "ec2-user";
-            String host = publicDNS;
-            int port = 22;
-            String privateKey = keyname;
+			System.out.println(response.toString());
 
-            jsch.addIdentity(privateKey);
-            System.out.println("identity added ");
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			if (session != null) session.disconnect();
+			if (channelExec != null) channelExec.disconnect();
+		}
+		return r;
+	}
+```
 
-            Session session = jsch.getSession(user, host, port);
-            System.out.println("session created.");
-
-            // disabling StrictHostKeyChecking may help to make connection but makes it insecure
-            // see http://stackoverflow.com/questions/30178936/jsch-sftp-security-with-session-setconfigstricthostkeychecking-no
-            //
-            session.setConfig("StrictHostKeyChecking","no");
-            session.setConfig("GSSAPIAuthentication","no");
-            session.setServerAliveInterval(120 * 1000);
-            session.setServerAliveCountMax(1000);
-            session.setConfig("TCPKeepAlive","yes");
-
-            session.connect();
-
-            Channel channel=session.openChannel("shell");
-
-            // Enable agent-forwarding.
-            //((ChannelShell)channel).setAgentForwarding(true);
-
-            channel.setInputStream(System.in);
-      /*
-      // a hack for MS-DOS prompt on Windows.
-      channel.setInputStream(new FilterInputStream(System.in){
-          public int read(byte[] b, int off, int len)throws IOException{
-            return in.read(b, off, (len>1024?1024:len));
-          }
-        });
-       */
-
-            channel.setOutputStream(System.out);
-
-      /*
-      // Choose the pty-type "vt102".
-      ((ChannelShell)channel).setPtyType("vt102");
-      */
-
-      /*
-      // Set environment variable "LANG" as "ja_JP.eucJP".
-      ((ChannelShell)channel).setEnv("LANG", "ja_JP.eucJP");
-      */
-
-            //channel.connect();
-            channel.connect(3*1000);
-        }
-        catch(Exception e){
-            e.printStackTrace();
-        }
-    }
-}
+```
+	private void connectSSH(String user, String host, String privateKey, int port){
+		try{
+			JSch jsch = new JSch();
+			jsch.addIdentity(privateKey);
+			session = jsch.getSession(user, host, port);
+			session.setConfig("StrictHostKeyChecking","no");
+			session.setConfig("GSSAPIAuthentication","no");
+			session.setServerAliveInterval(120 * 1000);
+			session.setServerAliveCountMax(1000);
+			session.setConfig("TCPKeepAlive","yes");
+			session.connect();
+			Channel channel=session.openChannel("shell");
+			channel.setInputStream(System.in);
+			channel.setOutputStream(System.out);
+			channel.connect(3*1000);
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}    
 ```
