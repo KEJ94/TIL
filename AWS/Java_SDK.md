@@ -58,7 +58,6 @@ public class DescribeInstances{
             DescribeInstancesResult response = ec2.describeInstances(request);
             for(Reservation reservation : response.getReservations()) {
                 for(Instance instance : reservation.getInstances()) {
-		    instanceStr = "";
                     instanceStr = 
                         "\n" +
                         "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n" +
