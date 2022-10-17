@@ -39,21 +39,38 @@ aws_secret_access_key = YOUR_AWS_SECRET_ACCESS_KEY
 ## 4. EC2 인스턴스에 대한 정보 불러오기
 ```
 package com.jiransnc.vada.aws;
+import java.util.List;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.ec2.AmazonEC2;
 import com.amazonaws.services.ec2.AmazonEC2ClientBuilder;
+import com.amazonaws.services.ec2.model.DescribeImagesRequest;
+import com.amazonaws.services.ec2.model.DescribeImagesResult;
 import com.amazonaws.services.ec2.model.DescribeInstancesRequest;
 import com.amazonaws.services.ec2.model.DescribeInstancesResult;
+import com.amazonaws.services.ec2.model.Image;
 import com.amazonaws.services.ec2.model.Instance;
 import com.amazonaws.services.ec2.model.Reservation;
 
 public class DescribeInstances{
     public static void main(String[] args){
-        String instanceStr = "";
-        // *리전 서울로 지정
+        // 리전 서울로 지정
         final AmazonEC2 ec2 = AmazonEC2ClientBuilder.standard().withRegion(Regions.AP_NORTHEAST_2).build();
+        
         boolean done = false;
         DescribeInstancesRequest request = new DescribeInstancesRequest();
+        DescribeImagesRequest img_request = new DescribeImagesRequest();
+
+        // AMI 정보
+        img_request.withImageIds("ami-026ad5c508c016f6f"); // instance.getImageId()
+        DescribeImagesResult describeImagesResult = ec2.describeImages(img_request);
+        List<Image> images = describeImagesResult.getImages();
+        for (Image image : images) {
+            System.out.println(image.getImageId() + "==" + image.getImageLocation() + "==" + image.getName());
+        }
+        
+        String instanceStr = "";
+
+        // 인스턴스 정보
         while(!done) {
             DescribeInstancesResult response = ec2.describeInstances(request);
             for(Reservation reservation : response.getReservations()) {
@@ -101,7 +118,7 @@ public class DescribeInstances{
                         "StateReason : "                    +instance.getStateReason()+"\n"+
                         "Tags : "                           +instance.getTags()+"\n"+
                         "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n";
-			System.out.print(instanceStr);
+                        System.out.print(instanceStr);
                 }
             }
             request.setNextToken(response.getNextToken());
