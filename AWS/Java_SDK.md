@@ -19,7 +19,7 @@ aws_secret_access_key = YOUR_AWS_SECRET_ACCESS_KEY
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-bom</artifactId>
-			<version>1.11.245</version>
+			<version>1.11.245</version> // 높은 버전을 사용할것.. platform detail 이 없음..
 			<type>pom</type>
 			<scope>import</scope>
 		</dependency>
