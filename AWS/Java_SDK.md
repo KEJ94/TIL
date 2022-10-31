@@ -1,4 +1,5 @@
 ## 1. 라이센스 설정
+### 방법1
 아래와 같은 내용으로 확장자가 없는 txt 파일을 만든다.
 ```
 [default]
@@ -7,7 +8,17 @@ aws_secret_access_key = YOUR_AWS_SECRET_ACCESS_KEY
 ```
 운영체제별 파일경로
 - Windows : C:\Users\<yourUserName>\.aws\credentials
-- Linux, macOS, Unix : ~/.aws/credentials
+- Linux, macOS, Unix : ~/.aws/credentials  
+<br><br>
+
+### 방법2
+아래와 같이 코드에 직접 입력
+```
+BasicAWSCredentials awsCreds = new BasicAWSCredentials("access_key_id", "secret_key_id");
+AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
+                        .withCredentials(new AWSStaticCredentialsProvider(awsCreds))
+                        .build();
+```
 <br><br><br>
 ## 2. IAM 계정 정책
 - AdministratorAccess 
