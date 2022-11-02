@@ -77,3 +77,17 @@ Java에서 ssh로 접속하려면 jsch 라이브러리를 사용하여 접속한
 		}
 	}    
 ```
+
+```
+		<dependency>
+			<groupId>com.jcraft</groupId>
+			<artifactId>jsch</artifactId>
+			<version>0.1.54</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-ec2</artifactId>
+			<version>1.12.322</version>
+		</dependency>
+```
