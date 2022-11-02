@@ -91,3 +91,33 @@ Java에서 ssh로 접속하려면 jsch 라이브러리를 사용하여 접속한
 			<version>1.12.322</version>
 		</dependency>
 ```
+
+```
+$("#aws_ssh_connect_submit").click(function(){
+	var confirmWindow = $("#confirmDbDeleteWindow").data("kendoWindow");
+	confirmWindow.title("TEST");
+	confirmWindow.content($("#confirm_template").html()).center().open();
+	$("#confirmDbDeleteWindow .confirm-message").html("CONNECTION 시도");
+	var request = new Object();
+	request.cmd = "aws_ssh_test";
+	request.data = new Object();
+	$("#confirmDbDeleteWindow #confirmBtn").click(function(){
+		$.ajax({
+			type: "POST",
+			url: "../controller/config_system",
+			contentType: 'application/json',
+			dataType: "json",
+			data: JSON.stringify(request),
+			success: function(response) {
+				viewDialog("run", "info");
+				confirmWindow.close();
+			}
+		});
+	});
+	$("#confirmDbDeleteWindow #CancleBtn").click(function(){
+		confirmWindow.close();
+	});
+});
+```
+
+
