@@ -12,17 +12,17 @@
 - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Java/WrapperClass.md)
 - [문자열 변환](https://github.com/KEJ94/TIL/blob/main/Java/문자열_변환.md)
 - [JNI](https://github.com/KEJ94/TIL/blob/main/Java/JNI.md)
-- [JSON](https://github.com/KEJ94/TIL/blob/main/ETC/JSON.md)
-- [SOLID](https://github.com/KEJ94/TIL/blob/main/ETC/SOLID.md)
+- [JSON](https://github.com/KEJ94/TIL/blob/main/Java/JSON.md)
+- [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
 
 ### Vue
 - [프로젝트 생성](https://github.com/KEJ94/TIL/blob/main/Vue/프로젝트_생성.md)
 - [데이터 바인딩](https://github.com/KEJ94/TIL/blob/main/Vue/데이터_바인딩.md)  
 
 ### DB
-- [Flyway](https://github.com/KEJ94/TIL/blob/main/MariaDB/Flyway.md)
-- [외부접속](https://github.com/KEJ94/TIL/blob/main/MariaDB/외부접속.md)
-- [Mybatis](https://github.com/KEJ94/TIL/blob/main/ETC/Mybatis.md)
+- [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
+- [외부접속](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md)
+- [Mybatis](https://github.com/KEJ94/TIL/blob/main/DB/Mybatis.md)
 
 ### AWS
 - [기본](https://github.com/KEJ94/TIL/blob/main/AWS/기본.md)
