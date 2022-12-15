@@ -1,4 +1,4 @@
-# Today I Learned
+# TIL
 
 ### Spring
 - [프로젝트 생성](https://github.com/KEJ94/TIL/blob/main/Spring/프로젝트_생성.md)
