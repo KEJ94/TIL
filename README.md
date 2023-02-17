@@ -14,6 +14,7 @@
 - [JNI](https://github.com/KEJ94/TIL/blob/main/Java/JNI.md)
 - [JSON](https://github.com/KEJ94/TIL/blob/main/Java/JSON.md)
 - [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
+- [객체지향 프로그래밍](https://github.com/KEJ94/TIL/blob/main/Java/객체지향_.md)
 
 ### Vue
 - [프로젝트 생성](https://github.com/KEJ94/TIL/blob/main/Vue/프로젝트_생성.md)
