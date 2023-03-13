@@ -16,10 +16,6 @@
 - [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
 - [객체지향 프로그래밍](https://github.com/KEJ94/TIL/blob/main/Java/객체지향_프로그래밍.md)
 
-### Vue
-- [프로젝트 생성](https://github.com/KEJ94/TIL/blob/main/Vue/프로젝트_생성.md)
-- [데이터 바인딩](https://github.com/KEJ94/TIL/blob/main/Vue/데이터_바인딩.md)  
-
 ### DB
 - [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
 - [외부접속](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md)
@@ -46,4 +42,10 @@
  - [SSO](https://github.com/KEJ94/TIL/blob/main/ETC/SSO.md)
  - [Docker](https://github.com/KEJ94/TIL/blob/main/ETC/Docker.md)
  - [Redis](https://github.com/KEJ94/TIL/blob/main/ETC/Redis.md)
- - [암호화](https://github.com/KEJ94/TIL/blob/main/ETC/암호화.md)
+ - [암호화](https://github.com/KEJ94/TIL/blob/main/ETC/암호화.md)  
+ 
+ ### JS
+- Vue
+  - [프로젝트 생성](https://github.com/KEJ94/TIL/blob/main/JS/Vue/프로젝트_생성.md)
+  - [데이터 바인딩](https://github.com/KEJ94/TIL/blob/main/JS/Vue/데이터_바인딩.md)  
+- ES6
