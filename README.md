@@ -49,4 +49,4 @@
   - [프로젝트 생성](https://github.com/KEJ94/TIL/blob/main/JS/Vue/프로젝트_생성.md)
   - [데이터 바인딩](https://github.com/KEJ94/TIL/blob/main/JS/Vue/데이터_바인딩.md)  
 - ES6
-  - [화살표함수](https://github.com/KEJ94/TIL/blob/main/JS/ES6/화살표함수.md) 23/03/13 
+  - [Arrow Function](https://github.com/KEJ94/TIL/blob/main/JS/ES6/화살표함수.md) 23/03/13 
