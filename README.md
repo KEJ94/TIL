@@ -49,6 +49,7 @@
   - [프로젝트 생성](https://github.com/KEJ94/TIL/blob/main/JS/Vue/프로젝트_생성.md)
   - [데이터 바인딩](https://github.com/KEJ94/TIL/blob/main/JS/Vue/데이터_바인딩.md)  
 - ES6+
-  - [const & let](https://github.com/KEJ94/TIL/blob/main/JS/ES6/constlet.md) 23/03/14 
-  - [arrow function](https://github.com/KEJ94/TIL/blob/main/JS/ES6/arrowfunction.md) 23/03/13 
+  - [Const & Let](https://github.com/KEJ94/TIL/blob/main/JS/ES6/constlet.md) 23/03/14 
+  - [Arrow Function](https://github.com/KEJ94/TIL/blob/main/JS/ES6/arrowfunction.md) 23/03/13 
+  - [Enhanced Object Literal](https://github.com/KEJ94/TIL/blob/main/JS/ES6/enhanced_object_literal.md) 23/03/14  
   - [async & await](https://github.com/KEJ94/TIL/blob/main/JS/ES6/asyncawait.md) 23/03/14 
