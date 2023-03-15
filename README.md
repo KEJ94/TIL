@@ -53,4 +53,5 @@
   - [Arrow Function](https://github.com/KEJ94/TIL/blob/main/JS/ES6/arrowfunction.md) 23/03/13 
   - [Enhanced Object Literal](https://github.com/KEJ94/TIL/blob/main/JS/ES6/enhanced_object_literal.md) 23/03/14  
   - [Spread Operator](https://github.com/KEJ94/TIL/blob/main/JS/ES6/spread_operator.md) 23/03/14  
+  - [Template Literal](https://github.com/KEJ94/TIL/blob/main/JS/ES6/template_literal.md) 23/03/15  
   - [async & await](https://github.com/KEJ94/TIL/blob/main/JS/ES6/asyncawait.md) 23/03/14 
