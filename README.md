@@ -52,8 +52,11 @@
   - [Const & Let](https://github.com/KEJ94/TIL/blob/main/JS/ES6/constlet.md) 23/03/14 
   - [Arrow Function](https://github.com/KEJ94/TIL/blob/main/JS/ES6/arrowfunction.md) 23/03/13 
   - [Enhanced Object Literal](https://github.com/KEJ94/TIL/blob/main/JS/ES6/enhanced_object_literal.md) 23/03/14  
-  - [Spread Operator](https://github.com/KEJ94/TIL/blob/main/JS/ES6/spread_operator.md) 23/03/14  
+  - [Spread Operator(```...```)](https://github.com/KEJ94/TIL/blob/main/JS/ES6/spread_operator.md) 23/03/14  
   - [Template Literal](https://github.com/KEJ94/TIL/blob/main/JS/ES6/template_literal.md) 23/03/15  
   - [Destructuring](https://github.com/KEJ94/TIL/blob/main/JS/ES6/destructuring.md) 23/03/15  
   - [Async & Await](https://github.com/KEJ94/TIL/blob/main/JS/ES6/asyncawait.md) 23/03/14 
- 
+  - [Modules](https://github.com/KEJ94/TIL/blob/main/JS/ES6/modules.md) 23/03/15 
+  - [Nullish coalescing operator(```??```)](https://github.com/KEJ94/TIL/blob/main/JS/ES6/nullish_coalescing_operator.md) 23/03/15 
+  - [Default parameter](https://github.com/KEJ94/TIL/blob/main/JS/ES6/default_parameter.md) 23/03/15 
+  - [Optional Chaning(```?.```)](https://github.com/KEJ94/TIL/blob/main/JS/ES6/optional_chaning.md) 23/03/15 
