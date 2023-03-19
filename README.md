@@ -46,7 +46,7 @@
  
  ### JS
 - Vue
-  - [인스턴스와 컴포넌트](https://github.com/KEJ94/TIL/blob/main/JS/Vue/인스턴스와컴포넌트.md)
+  - [인스턴스 & 컴포넌트](https://github.com/KEJ94/TIL/blob/main/JS/Vue/인스턴스와컴포넌트.md) 23/03/19  
 
 - ES6+
   - [Const & Let](https://github.com/KEJ94/TIL/blob/main/JS/ES6/constlet.md) 23/03/14 
