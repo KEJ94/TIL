@@ -35,7 +35,7 @@ public class AssetTypeValidator implements ConstraintValidator<AssetType, String
 ### 필드에 어노테이션 추가 
 ```java
 @Getter
-public class Obj {
+public class Asset {
 
   @AssetType
   private String assetType;
