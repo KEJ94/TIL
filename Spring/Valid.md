@@ -17,10 +17,10 @@ public @interface AssetType {
 > 4. 기본적인 메세지를 설정할 수 있다. (```grpups```, ```payload``` 설정은 생략)  
 ### 검증 클래스 만들기  
 ```java
-public class AssetTypeValidator implements ConstraintValidator<AssetType, String> { // 1
+public class AssetTypeValidator implements ConstraintValidator<AssetType, String> { // 1, 2
 
   @Override
-  public boolean isValid(String value, ConstraintValidatorContext context) { // 2
+  public boolean isValid(String value, ConstraintValidatorContext context) { // 3
     if (value == null) {
       return false;
     }
