@@ -41,3 +41,4 @@ public class Asset {
   private String assetType;
 }
 ```
+> Controller 또는 Service 등 필요한 영역에  ```@Valid``` 어노테이션을 추가해서 사용한다.
