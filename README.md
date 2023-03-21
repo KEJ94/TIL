@@ -24,7 +24,7 @@
   - [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
   - [외부접속](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md)
 - NoSQL
-  - [Redis](https://github.com/KEJ94/TIL/blob/main/ETC/Redis.md)
+  - [Redis](https://github.com/KEJ94/TIL/blob/main/DB/Redis.md)
 
 ### AWS
 - [기본](https://github.com/KEJ94/TIL/blob/main/AWS/기본.md)
