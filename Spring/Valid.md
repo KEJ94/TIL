@@ -30,7 +30,7 @@ public class AssetTypeValidator implements ConstraintValidator<AssetType, String
 }
 ```
 > 1. 검증 클래스를 만들기 위해서는 ```ConstraintValidator``` 를 구현해주어야 한다.  
-> 2. __첫번째 제네릭 값으로는 검증 어노테이션__ 을 , __두번째 제네릭 값으로는 필드의 데이터 유형__ 을 넣어준다.
+> 2. __첫번째 제네릭 값으로는 검증 어노테이션__ , __두번째 제네릭 값으로는 필드의 데이터 유형__ 을 넣어준다.
 > 3. ```isValid``` 를 구현해서 값을 검증할 로직을 넣어준다.
 ### 필드에 어노테이션 추가 
 ```java
