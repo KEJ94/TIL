@@ -17,12 +17,14 @@
 - [JSON](https://github.com/KEJ94/TIL/blob/main/Java/JSON.md)
 - [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
 - [객체지향 프로그래밍](https://github.com/KEJ94/TIL/blob/main/Java/객체지향_프로그래밍.md)
+- [Mybatis](https://github.com/KEJ94/TIL/blob/main/DB/Mybatis.md)
 
 ### DB
-- [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
-- [외부접속](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md)
-- [Mybatis](https://github.com/KEJ94/TIL/blob/main/DB/Mybatis.md)
-- [Redis](https://github.com/KEJ94/TIL/blob/main/ETC/Redis.md)
+- RDBMS
+  - [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
+  - [외부접속](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md)
+- NoSQL
+  - [Redis](https://github.com/KEJ94/TIL/blob/main/ETC/Redis.md)
 
 ### AWS
 - [기본](https://github.com/KEJ94/TIL/blob/main/AWS/기본.md)
