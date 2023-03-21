@@ -35,7 +35,7 @@ public class VADAExceptionHandler {
 ```
 > 코드상에는 ```@RestControllerAdvice``` 를 사용했다. ```@ControllerAdvice``` 와 동일한 역할을 하지만 __객체를 반환할 수 있다__ 는 차이점이 있다.  
 > 새로운 클래스 파일을 만들어 사용하면 된다.  
-### 적용
+### ```@Controller``` ```try/catch``` 제거
 ```java
 @PostMapping("/assets")
 public ResponseData<List<Asset>> assetLogicalList(HttpSession session, @RequestBody RequestData reqData){
