@@ -87,6 +87,7 @@ public SimpleResponseData assetAdd(@RequestBody @Valid Asset asset){ // @Valid
 ```java
 @RestControllerAdvice
 public class ApiControllerAdvice {
+
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public SimpleResponseData methodArgumentNotValidExceptionHandle(MethodArgumentNotValidException e) {
         ValidationResponseData responseData = new ValidationResponseData();
