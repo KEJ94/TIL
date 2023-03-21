@@ -29,7 +29,7 @@
 - [SSH 연결](https://github.com/KEJ94/TIL/blob/main/AWS/SSH_연결.md)
 
 ### Network
-- 모든 개발자를 위한 HTTP 웹 기본 지식
+- HTTP
   - [인터넷 네트워크](https://github.com/KEJ94/TIL/blob/main/Network/인터넷_네트워크.md)
   - [URI와 웹 브라우저 요청 흐름](https://github.com/KEJ94/TIL/blob/main/Network/URI와_웹_브라우저_요청_흐름.md)
   - [HTTP 기본](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_기본.md)
@@ -37,15 +37,6 @@
   - [HTTP 헤더](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_헤더.md)
 - [로드밸런싱](https://github.com/KEJ94/TIL/blob/main/Network/로드밸런싱.md)
 
-### ETC
- - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
- - [Kendo UI](https://github.com/KEJ94/TIL/blob/main/ETC/Kendo_UI.md)
- - [GraphQL](https://github.com/KEJ94/TIL/blob/main/ETC/GraphQL.md)
- - [SSO](https://github.com/KEJ94/TIL/blob/main/ETC/SSO.md)
- - [Docker](https://github.com/KEJ94/TIL/blob/main/ETC/Docker.md)
- - [Redis](https://github.com/KEJ94/TIL/blob/main/ETC/Redis.md)
- - [암호화](https://github.com/KEJ94/TIL/blob/main/ETC/암호화.md)  
- 
  ### JS
 - Vue
   - [인스턴스 & 컴포넌트](https://github.com/KEJ94/TIL/blob/main/JS/Vue/인스턴스와컴포넌트.md) 23/03/19  
@@ -62,3 +53,13 @@
   - [Nullish coalescing operator(```??```)](https://github.com/KEJ94/TIL/blob/main/JS/ES6/nullish_coalescing_operator.md) 23/03/15 
   - [Default parameter](https://github.com/KEJ94/TIL/blob/main/JS/ES6/default_parameter.md) 23/03/15 
   - [Optional Chaning(```?.```)](https://github.com/KEJ94/TIL/blob/main/JS/ES6/optional_chaning.md) 23/03/15 
+
+### ETC
+ - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
+ - [Kendo UI](https://github.com/KEJ94/TIL/blob/main/ETC/Kendo_UI.md)
+ - [GraphQL](https://github.com/KEJ94/TIL/blob/main/ETC/GraphQL.md)
+ - [SSO](https://github.com/KEJ94/TIL/blob/main/ETC/SSO.md)
+ - [Docker](https://github.com/KEJ94/TIL/blob/main/ETC/Docker.md)
+ - [Redis](https://github.com/KEJ94/TIL/blob/main/ETC/Redis.md)
+ - [암호화](https://github.com/KEJ94/TIL/blob/main/ETC/암호화.md)  
+ 
