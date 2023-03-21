@@ -32,12 +32,12 @@ import javax.validation.ConstraintValidatorContext;
 import com.jiransnc.vada.mapper.AssetMapper;
 import com.jiransnc.vada.utils.annotation.AssetType;
 
-public class AssetTypeValidator implements ConstraintValidator<AssetType, String> {
+public class AssetTypeValidator implements ConstraintValidator<AssetType, String> { // 1, 2
 
     AssetMapper dbMapper;
 
     @Override
-    public boolean isValid(String value, ConstraintValidatorContext context) {
+    public boolean isValid(String value, ConstraintValidatorContext context) { // 3
         if (value == null) {
             return false;
         }
