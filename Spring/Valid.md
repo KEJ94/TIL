@@ -87,13 +87,16 @@ public SimpleResponseData assetAdd(@RequestBody @Valid Asset asset){ // @Valid
 ```java
 @RestControllerAdvice
 public class ApiControllerAdvice {
-
     @ExceptionHandler(MethodArgumentNotValidException.class)
-    public ResponseEntity<Map<String, String>> handleValidationExceptions(MethodArgumentNotValidException ex){
-        Map<String, String> errors = new HashMap<>();
-        ex.getBindingResult().getAllErrors()
-                .forEach(c -> errors.put(((FieldError) c).getField(), c.getDefaultMessage()));
-        return ResponseEntity.badRequest().body(errors);
+    public SimpleResponseData methodArgumentNotValidExceptionHandle(MethodArgumentNotValidException e) {
+        ValidationResponseData responseData = new ValidationResponseData();
+        log.error(e.getMessage(), e);
+        responseData.setStatus(VADAReturnCode.EXCEPTION_OCCURRED);
+        HashMap<String, String> data = new HashMap<String, String>();
+        e.getBindingResult().getFieldErrors()
+                .forEach(c -> data.put(c.getField(), c.getDefaultMessage()));
+        responseData.setData(data);
+        return responseData;
     }
 }
 ```
