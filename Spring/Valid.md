@@ -82,7 +82,7 @@ public SimpleResponseData assetAdd(@RequestBody @Valid Asset asset){ // @Valid
 ```
 > defaultMessage 로 아까 작성한 "TEST" 를 리턴 받는다.
 ### Exception Handling
-에러 로그를 확인해보면 ```MethodArgumentNotValidException``` 이 발생했음을 알 수 있다. ErrorMessage 를 response 로 내보내기 위해서는 ```@ControllerAdvice``` 를 이용한 __전역 에러 핸들링__ 또는 ```@Controller``` 단에서 __지역 에러 핸들링__ 을 사용하면 된다.  
+에러 로그를 확인해보면 ```MethodArgumentNotValidException``` 이 발생했음을 알 수 있다. ErrorMessage 를 원하는 형태로 내보내기 위해서는 ```@ControllerAdvice``` 를 이용한 __전역 에러 핸들링__ 또는 ```@Controller``` 단에서 __지역 에러 핸들링__ 을 사용하면 된다.  
 아래 코드는 ```@ControllerAdvice``` 를 이용한 전역 에러 핸들링 코드다. 
 ```java
 @RestControllerAdvice
