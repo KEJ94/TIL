@@ -70,4 +70,4 @@ public ResponseData<List<Asset>> assetLogicalList(HttpSession session, @RequestB
     return responseData;
 }
 ```
-> 컨트롤러 마다 들어간 같은 예외처리문을 통합해서 한곳으로 관리할 수 있다
+> 컨트롤러 마다 들어간 예외처리문을 통합해서 한곳으로 관리할 수 있다
