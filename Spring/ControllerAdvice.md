@@ -2,7 +2,7 @@
 ```@ControllerAdvice``` 는 ```@Controller``` 어노테이션이 있는 __모든 곳에서의 예외__ 를 잡을 수 있다.  
 ```@ControllerAdvice``` 안에 있는 ```@ExceptionHandler``` 는 모든 컨트롤러에서 발생하는 예외상황을 잡을 수 있고, ```@ControllerAdvice``` 의 속성 설정을 통하여 
 원하는 컨트롤러나 패키지만 선택할수도 있다.  
-따로 지정을 하지 않으면 모든 패키지에 있는 컨트롤러를 담당하게 된다.  
+따로 지정하지 않으면 모든 패키지에 있는 컨트롤러를 담당하게 된다.  
 
 ### ```@ControllerAdvice``` 적용
 ```java
