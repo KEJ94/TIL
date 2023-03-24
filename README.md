@@ -42,8 +42,7 @@
 
  ### JS
 - Vue
-  - [인스턴스 & 컴포넌트](https://github.com/KEJ94/TIL/blob/main/JS/Vue/인스턴스와컴포넌트.md) 23/03/19  
-  - [라우터](https://github.com/KEJ94/TIL/blob/main/JS/Vue/라우터.md) 23/03/20    
+  - [Instance](https://github.com/KEJ94/TIL/blob/main/JS/Vue/Instance.md) 23/03/24    
 - ES6+
   - [Const & Let](https://github.com/KEJ94/TIL/blob/main/JS/ES6/constlet.md) 23/03/14 
   - [Arrow Function(```=>```)](https://github.com/KEJ94/TIL/blob/main/JS/ES6/arrowfunction.md) 23/03/13 
