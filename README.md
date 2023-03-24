@@ -58,7 +58,6 @@
 
 ### ETC
  - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
- - [Kendo UI](https://github.com/KEJ94/TIL/blob/main/ETC/Kendo_UI.md)
  - [GraphQL](https://github.com/KEJ94/TIL/blob/main/ETC/GraphQL.md)
  - [SSO](https://github.com/KEJ94/TIL/blob/main/ETC/SSO.md)
  - [Docker](https://github.com/KEJ94/TIL/blob/main/ETC/Docker.md)
