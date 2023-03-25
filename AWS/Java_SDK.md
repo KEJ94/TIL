@@ -13,7 +13,7 @@ aws_secret_access_key = YOUR_AWS_SECRET_ACCESS_KEY
 
 ### 방법2
 아래와 같이 코드에 직접 입력
-```
+```java
 BasicAWSCredentials awsCreds = new BasicAWSCredentials("access_key_id", "secret_key_id");
 AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
                         .withCredentials(new AWSStaticCredentialsProvider(awsCreds))
@@ -24,7 +24,7 @@ AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
 - AdministratorAccess 
 <br><br><br>
 ## 3. pom.xml 설정
-```
+```xml
 	<dependencyManagement>
 		<dependencies>
 		<dependency>
@@ -38,7 +38,7 @@ AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
 	</dependencyManagement>
 ```
 
-```
+```xml
   <dependencies>
 		<dependency>
 			<groupId>com.amazonaws</groupId>
@@ -48,7 +48,7 @@ AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
 ```
 <br><br>
 ## 4. EC2 인스턴스에 대한 정보 불러오기
-```
+```java
 package com.jiransnc.vada.aws;
 import java.util.List;
 import com.amazonaws.regions.Regions;
