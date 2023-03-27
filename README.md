@@ -23,21 +23,10 @@
 - Java
   - [AWS SDK](https://github.com/KEJ94/TIL/blob/main/AWS/Java_SDK.md)
   - [AWS SSH](https://github.com/KEJ94/TIL/blob/main/AWS/SSH_연결.md)
-
-### Java
-- [실행](https://github.com/KEJ94/TIL/blob/main/Java/실행.md)
-- [Input](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
-- [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Java/WrapperClass.md)
-- [JNI](https://github.com/KEJ94/TIL/blob/main/Java/JNI.md)
-
-### Network
-- HTTP
-  - [인터넷 네트워크](https://github.com/KEJ94/TIL/blob/main/Network/인터넷_네트워크.md)
-  - [URI와 웹 브라우저 요청 흐름](https://github.com/KEJ94/TIL/blob/main/Network/URI와_웹_브라우저_요청_흐름.md)
-  - [HTTP 기본](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_기본.md)
-  - [HTTP 메서드](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_메서드.md)
-  - [HTTP 헤더](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_헤더.md)
-- [로드밸런싱](https://github.com/KEJ94/TIL/blob/main/Network/로드밸런싱.md)
+  - [Runtime Environment](https://github.com/KEJ94/TIL/blob/main/Java/실행.md)
+  - [Input](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
+  - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Java/WrapperClass.md)
+  - [JNI](https://github.com/KEJ94/TIL/blob/main/Java/JNI.md)
 
 ### ETC
  - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
@@ -51,3 +40,10 @@
  - [JPA](https://github.com/KEJ94/TIL/blob/main/Spring/JPA.md)
  - [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
  - [Amazon Web Service](https://github.com/KEJ94/TIL/blob/main/AWS/기본.md)
+ - [로드밸런싱](https://github.com/KEJ94/TIL/blob/main/Network/로드밸런싱.md)
+ - HTTP
+   - [인터넷 네트워크](https://github.com/KEJ94/TIL/blob/main/Network/인터넷_네트워크.md)
+   - [URI와 웹 브라우저 요청 흐름](https://github.com/KEJ94/TIL/blob/main/Network/URI와_웹_브라우저_요청_흐름.md)
+   - [HTTP 기본](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_기본.md)
+   - [HTTP 메서드](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_메서드.md)
+   - [HTTP 헤더](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_헤더.md)
