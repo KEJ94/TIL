@@ -9,7 +9,7 @@
 - [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
 
 ### Java
-- [Excute](https://github.com/KEJ94/TIL/blob/main/Java/실행.md)
+- [실행](https://github.com/KEJ94/TIL/blob/main/Java/실행.md)
 - [Input](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
 - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Java/WrapperClass.md)
 - [JNI](https://github.com/KEJ94/TIL/blob/main/Java/JNI.md)
