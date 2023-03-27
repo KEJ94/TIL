@@ -6,19 +6,18 @@
   - [@ExceptionHandler, @ControllerAdvice](https://github.com/KEJ94/TIL/blob/main/Spring/ControllerAdvice.md) 23/03/21
   - [@Async](https://github.com/KEJ94/TIL/blob/main/Spring/비동기_메서드.md)
 - [JPA](https://github.com/KEJ94/TIL/blob/main/Spring/JPA.md)
+- [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
 
 ### Java
-- [실행](https://github.com/KEJ94/TIL/blob/main/Java/실행.md)
-- [입력](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
+- [Excute](https://github.com/KEJ94/TIL/blob/main/Java/실행.md)
+- [Input](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
 - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Java/WrapperClass.md)
 - [JNI](https://github.com/KEJ94/TIL/blob/main/Java/JNI.md)
-- [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
-- [객체지향 프로그래밍](https://github.com/KEJ94/TIL/blob/main/Java/객체지향_프로그래밍.md)
+
 
 ### DB
 - RDBMS
   - [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
-  - [외부접속](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md)
 - NoSQL
   - [Redis](https://github.com/KEJ94/TIL/blob/main/DB/Redis.md)
 
@@ -56,5 +55,7 @@
  - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
  - [GraphQL](https://github.com/KEJ94/TIL/blob/main/ETC/GraphQL.md)
  - [SSO](https://github.com/KEJ94/TIL/blob/main/ETC/SSO.md)
- - [Docker](https://github.com/KEJ94/TIL/blob/main/ETC/Docker.md)
+ - [Docker](https://github.com/KEJ94/TIL/blob/main/ETC/Docker.md)  
+ - [DB 외부접속](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md)
+ - [객체지향 프로그래밍](https://github.com/KEJ94/TIL/blob/main/Java/객체지향_프로그래밍.md)
  
