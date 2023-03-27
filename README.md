@@ -39,7 +39,7 @@
  - [JPA](https://github.com/KEJ94/TIL/blob/main/Spring/JPA.md)
  - [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
  - [Amazon Web Service](https://github.com/KEJ94/TIL/blob/main/AWS/기본.md)
- - [로드밸런싱](https://github.com/KEJ94/TIL/blob/main/Network/로드밸런싱.md)
+ - [Load Balancing](https://github.com/KEJ94/TIL/blob/main/Network/로드밸런싱.md)
  - HTTP
    - [인터넷 네트워크](https://github.com/KEJ94/TIL/blob/main/Network/인터넷_네트워크.md)
    - [URI와 웹 브라우저 요청 흐름](https://github.com/KEJ94/TIL/blob/main/Network/URI와_웹_브라우저_요청_흐름.md)
