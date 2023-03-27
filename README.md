@@ -1,6 +1,7 @@
 # TIL
 ### Vue
-- [Instance(```new Vue()```)](https://github.com/KEJ94/TIL/blob/main/JS/Vue/Instance.md) 23/03/24    
+- Fundamentals
+  - [Instance(```new Vue()```)](https://github.com/KEJ94/TIL/blob/main/JS/Vue/Instance.md) 23/03/24    
 - ES6+
   - [Const & Let](https://github.com/KEJ94/TIL/blob/main/JS/ES6/constlet.md) 23/03/14 
   - [Arrow Function(```=>```)](https://github.com/KEJ94/TIL/blob/main/JS/ES6/arrowfunction.md) 23/03/13 
@@ -28,22 +29,23 @@
   - [Input](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
   - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Java/WrapperClass.md)
 
-### ETC
- - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
- - [GraphQL](https://github.com/KEJ94/TIL/blob/main/ETC/GraphQL.md)
- - [SSO](https://github.com/KEJ94/TIL/blob/main/ETC/SSO.md)
- - [Docker](https://github.com/KEJ94/TIL/blob/main/ETC/Docker.md)  
- - [객체지향 프로그래밍](https://github.com/KEJ94/TIL/blob/main/Java/객체지향_프로그래밍.md)
- - [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
- - [MariaDB 외부접속](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md) 
- - [Redis](https://github.com/KEJ94/TIL/blob/main/DB/Redis.md)
- - [JPA](https://github.com/KEJ94/TIL/blob/main/Spring/JPA.md)
- - [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
- - [Amazon Web Service](https://github.com/KEJ94/TIL/blob/main/AWS/기본.md)
- - [Load Balancing](https://github.com/KEJ94/TIL/blob/main/Network/로드밸런싱.md)
+### Note
+ - ETC
+   - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
+   - [GraphQL](https://github.com/KEJ94/TIL/blob/main/ETC/GraphQL.md)
+   - [SSO](https://github.com/KEJ94/TIL/blob/main/ETC/SSO.md)
+   - [Docker](https://github.com/KEJ94/TIL/blob/main/ETC/Docker.md)  
+   - [객체지향 프로그래밍](https://github.com/KEJ94/TIL/blob/main/Java/객체지향_프로그래밍.md)
+   - [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
+   - [MariaDB 외부접속](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md) 
+   - [Redis](https://github.com/KEJ94/TIL/blob/main/DB/Redis.md)
+   - [JPA](https://github.com/KEJ94/TIL/blob/main/Spring/JPA.md)
+   - [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
+   - [Amazon Web Service](https://github.com/KEJ94/TIL/blob/main/AWS/기본.md)
+   - [Load Balancing](https://github.com/KEJ94/TIL/blob/main/Network/로드밸런싱.md)
  - HTTP
    - [인터넷 네트워크](https://github.com/KEJ94/TIL/blob/main/Network/인터넷_네트워크.md)
    - [URI와 웹 브라우저 요청 흐름](https://github.com/KEJ94/TIL/blob/main/Network/URI와_웹_브라우저_요청_흐름.md)
-   - [HTTP 기본](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_기본.md)
-   - [HTTP 메서드](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_메서드.md)
-   - [HTTP 헤더](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_헤더.md)
+   - [기본](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_기본.md)
+   - [메서드](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_메서드.md)
+   - [헤더](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_헤더.md)
