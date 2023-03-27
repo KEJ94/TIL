@@ -17,7 +17,6 @@
 - [JSON](https://github.com/KEJ94/TIL/blob/main/Java/JSON.md)
 - [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
 - [객체지향 프로그래밍](https://github.com/KEJ94/TIL/blob/main/Java/객체지향_프로그래밍.md)
-- [Mybatis](https://github.com/KEJ94/TIL/blob/main/Java/Mybatis.md)
 
 ### DB
 - RDBMS
