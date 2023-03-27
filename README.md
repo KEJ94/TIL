@@ -20,19 +20,15 @@
   - [@Valid (Custom)](https://github.com/KEJ94/TIL/blob/main/Spring/Valid.md) 23/03/20
   - [@ExceptionHandler, @ControllerAdvice](https://github.com/KEJ94/TIL/blob/main/Spring/ControllerAdvice.md) 23/03/21
   - [@Async](https://github.com/KEJ94/TIL/blob/main/Spring/비동기_메서드.md)
-- [JPA](https://github.com/KEJ94/TIL/blob/main/Spring/JPA.md)
-- [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
+- Java
+  - [Java AWS SDK](https://github.com/KEJ94/TIL/blob/main/AWS/Java_SDK.md)
+  - [AWS SSH](https://github.com/KEJ94/TIL/blob/main/AWS/SSH_연결.md)
 
 ### Java
 - [실행](https://github.com/KEJ94/TIL/blob/main/Java/실행.md)
 - [Input](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
 - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Java/WrapperClass.md)
 - [JNI](https://github.com/KEJ94/TIL/blob/main/Java/JNI.md)
-
-### AWS
-- [기본](https://github.com/KEJ94/TIL/blob/main/AWS/기본.md)
-- [Java SDK](https://github.com/KEJ94/TIL/blob/main/AWS/Java_SDK.md)
-- [SSH 연결](https://github.com/KEJ94/TIL/blob/main/AWS/SSH_연결.md)
 
 ### Network
 - HTTP
@@ -52,3 +48,6 @@
  - [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
  - [MariaDB 외부접속](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md) 
  - [Redis](https://github.com/KEJ94/TIL/blob/main/DB/Redis.md)
+ - [JPA](https://github.com/KEJ94/TIL/blob/main/Spring/JPA.md)
+ - [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
+ - [Amazon Web Service](https://github.com/KEJ94/TIL/blob/main/AWS/기본.md)
