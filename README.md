@@ -12,7 +12,6 @@
 - [실행](https://github.com/KEJ94/TIL/blob/main/Java/실행.md)
 - [입력](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
 - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Java/WrapperClass.md)
-- [문자열 변환](https://github.com/KEJ94/TIL/blob/main/Java/문자열_변환.md)
 - [JNI](https://github.com/KEJ94/TIL/blob/main/Java/JNI.md)
 - [JSON](https://github.com/KEJ94/TIL/blob/main/Java/JSON.md)
 - [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
