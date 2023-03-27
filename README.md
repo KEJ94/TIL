@@ -13,7 +13,6 @@
 - [입력](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
 - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Java/WrapperClass.md)
 - [JNI](https://github.com/KEJ94/TIL/blob/main/Java/JNI.md)
-- [JSON](https://github.com/KEJ94/TIL/blob/main/Java/JSON.md)
 - [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
 - [객체지향 프로그래밍](https://github.com/KEJ94/TIL/blob/main/Java/객체지향_프로그래밍.md)
 
