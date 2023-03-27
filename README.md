@@ -1,8 +1,8 @@
 # TIL
 
 ### Spring
-- @Annotation
-  - [Custom @Valid](https://github.com/KEJ94/TIL/blob/main/Spring/Valid.md) 23/03/20
+- Annotation
+  - [@Valid (Custom)](https://github.com/KEJ94/TIL/blob/main/Spring/Valid.md) 23/03/20
   - [@ExceptionHandler, @ControllerAdvice](https://github.com/KEJ94/TIL/blob/main/Spring/ControllerAdvice.md) 23/03/21
 - [비동기 메서드](https://github.com/KEJ94/TIL/blob/main/Spring/비동기_메서드.md)
 - [JPA](https://github.com/KEJ94/TIL/blob/main/Spring/JPA.md)
