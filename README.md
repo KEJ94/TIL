@@ -1,6 +1,5 @@
 # TIL
 ### Vue
-
 - [Instance(```new Vue()```)](https://github.com/KEJ94/TIL/blob/main/JS/Vue/Instance.md) 23/03/24    
 - ES6+
   - [Const & Let](https://github.com/KEJ94/TIL/blob/main/JS/ES6/constlet.md) 23/03/14 
@@ -23,10 +22,10 @@
 - Java
   - [AWS SDK](https://github.com/KEJ94/TIL/blob/main/AWS/Java_SDK.md)
   - [AWS SSH](https://github.com/KEJ94/TIL/blob/main/AWS/SSH_연결.md)
+  - [JNI](https://github.com/KEJ94/TIL/blob/main/Java/JNI.md)
   - [Runtime Environment](https://github.com/KEJ94/TIL/blob/main/Java/실행.md)
   - [Input](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
   - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Java/WrapperClass.md)
-  - [JNI](https://github.com/KEJ94/TIL/blob/main/Java/JNI.md)
 
 ### ETC
  - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
