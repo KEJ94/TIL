@@ -1,7 +1,7 @@
 # TIL
-### JS
-- Vue
-  - [Instance(```new Vue()```)](https://github.com/KEJ94/TIL/blob/main/JS/Vue/Instance.md) 23/03/24    
+### Vue
+
+- [Instance(```new Vue()```)](https://github.com/KEJ94/TIL/blob/main/JS/Vue/Instance.md) 23/03/24    
 - ES6+
   - [Const & Let](https://github.com/KEJ94/TIL/blob/main/JS/ES6/constlet.md) 23/03/14 
   - [Arrow Function(```=>```)](https://github.com/KEJ94/TIL/blob/main/JS/ES6/arrowfunction.md) 23/03/13 
@@ -21,7 +21,7 @@
   - [@ExceptionHandler, @ControllerAdvice](https://github.com/KEJ94/TIL/blob/main/Spring/ControllerAdvice.md) 23/03/21
   - [@Async](https://github.com/KEJ94/TIL/blob/main/Spring/비동기_메서드.md)
 - Java
-  - [Java AWS SDK](https://github.com/KEJ94/TIL/blob/main/AWS/Java_SDK.md)
+  - [AWS SDK](https://github.com/KEJ94/TIL/blob/main/AWS/Java_SDK.md)
   - [AWS SSH](https://github.com/KEJ94/TIL/blob/main/AWS/SSH_연결.md)
 
 ### Java
