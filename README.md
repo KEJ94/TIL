@@ -17,7 +17,7 @@
 
 ### Spring
 - Annotation
-  - [@Valid (Custom)](https://github.com/KEJ94/TIL/blob/main/Spring/Valid.md) 23/03/20
+  - [@Valid(Custom)](https://github.com/KEJ94/TIL/blob/main/Spring/Valid.md) 23/03/20
   - [@ExceptionHandler, @ControllerAdvice](https://github.com/KEJ94/TIL/blob/main/Spring/ControllerAdvice.md) 23/03/21
   - [@Async](https://github.com/KEJ94/TIL/blob/main/Spring/비동기_메서드.md)
 - Library
@@ -35,7 +35,7 @@
    - [GraphQL](https://github.com/KEJ94/TIL/blob/main/ETC/GraphQL.md)
    - [SSO](https://github.com/KEJ94/TIL/blob/main/ETC/SSO.md)
    - [Docker](https://github.com/KEJ94/TIL/blob/main/ETC/Docker.md)  
-   - [OOP](https://github.com/KEJ94/TIL/blob/main/Java/객체지향_프로그래밍.md)
+   - [OOP(Object-Oriented Programming)](https://github.com/KEJ94/TIL/blob/main/Java/객체지향_프로그래밍.md)
    - [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
    - [MariaDB 외부접속](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md) 
    - [Redis](https://github.com/KEJ94/TIL/blob/main/DB/Redis.md)
