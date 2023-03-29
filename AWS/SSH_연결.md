@@ -28,7 +28,7 @@ chmod 600 ~/.ssh/your-key.pem
 ## Java SSH 접속  
 Java에서 ssh로 접속하려면 jsch 라이브러리를 사용하여 접속한다.  
 일반적인 ssh 접속은 사용자의 아이디, 패스워드를 입력하여 접속하지만, AWS 의 EC2 서버에 접속하려면 pem 인증서로 접속을 한다.  
-```
+```java
     import com.jcraft.jsch.*;
 
     private String user = "ubuntu";
@@ -63,7 +63,7 @@ Java에서 ssh로 접속하려면 jsch 라이브러리를 사용하여 접속한
 	}
 ```
 
-```
+```java
 	private void connectSSH(String user, String host, String privateKey, int port){
 		System.out.println(" --------------======= CONNECTION START =======-------------- ");
 		try{
@@ -78,7 +78,7 @@ Java에서 ssh로 접속하려면 jsch 라이브러리를 사용하여 접속한
 	}    
 ```
 
-```
+```xml
 		<dependency>
 			<groupId>com.jcraft</groupId>
 			<artifactId>jsch</artifactId>
@@ -92,7 +92,7 @@ Java에서 ssh로 접속하려면 jsch 라이브러리를 사용하여 접속한
 		</dependency>
 ```
 
-```
+```js
 $("#aws_ssh_connect_submit").click(function(){
 	var confirmWindow = $("#confirmDbDeleteWindow").data("kendoWindow");
 	confirmWindow.title("TEST");
