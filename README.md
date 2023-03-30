@@ -28,11 +28,10 @@
   - [Input](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
   - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Java/WrapperClass.md)
   
-### DB 
+### MariaDB 
   - [WITH RECURSIVE](https://github.com/KEJ94/TIL/blob/main/DB/재귀쿼리.md) 23/03/30
   - [FIND_IN_SET](https://github.com/KEJ94/TIL/blob/main/DB/FIND_IN_SET.md) 23/03/30
-  - [Bind-Address](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md)
-  - [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
+
 ### ETC
 - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
 - [GraphQL](https://github.com/KEJ94/TIL/blob/main/ETC/GraphQL.md)
@@ -44,7 +43,9 @@
 - [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
 - [Amazon Web Service](https://github.com/KEJ94/TIL/blob/main/AWS/기본.md)
 - [Load Balancing](https://github.com/KEJ94/TIL/blob/main/Network/로드밸런싱.md)
- - HTTP
+- [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
+- [MariaDB Bind-Address](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md)
+- HTTP
    - [인터넷 네트워크](https://github.com/KEJ94/TIL/blob/main/Network/인터넷_네트워크.md)
    - [URI와 웹 브라우저 요청 흐름](https://github.com/KEJ94/TIL/blob/main/Network/URI와_웹_브라우저_요청_흐름.md)
    - [기본](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_기본.md)
