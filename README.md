@@ -29,7 +29,7 @@
   - [Input](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
   - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Java/WrapperClass.md)
 
-### Note
+### ETC
 - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
 - [GraphQL](https://github.com/KEJ94/TIL/blob/main/ETC/GraphQL.md)
 - [SSO](https://github.com/KEJ94/TIL/blob/main/ETC/SSO.md)
