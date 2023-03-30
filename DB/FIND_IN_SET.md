@@ -1,4 +1,4 @@
-## FIND_IN_SET 
+# FIND_IN_SET 
 문법 ```WHERE FIND_IN_SET(str, strlist)```
 ```sql
 SELECT * FROM vw_asset WHERE FIND_IN_SET(18, id)
