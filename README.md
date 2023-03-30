@@ -27,7 +27,11 @@
   - [Runtime Environment](https://github.com/KEJ94/TIL/blob/main/Java/실행.md)
   - [Input](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
   - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Java/WrapperClass.md)
-
+  
+### MariaDB
+  - [Bind-Address](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md) 
+  - [WITH RECURSIVE](https://github.com/KEJ94/TIL/blob/main/DB/재귀쿼리.md) 
+  - [FIND_IN_SET](https://github.com/KEJ94/TIL/blob/main/DB/FIND_IN_SET.md) 
 ### ETC
 - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
 - [GraphQL](https://github.com/KEJ94/TIL/blob/main/ETC/GraphQL.md)
@@ -35,7 +39,6 @@
 - [Docker](https://github.com/KEJ94/TIL/blob/main/ETC/Docker.md)  
 - [OOP(Object-Oriented Programming)](https://github.com/KEJ94/TIL/blob/main/Java/객체지향_프로그래밍.md)
 - [Flyway](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
-- [MariaDB Bind-Address](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md) 
 - [Redis](https://github.com/KEJ94/TIL/blob/main/DB/Redis.md)
 - [JPA](https://github.com/KEJ94/TIL/blob/main/Spring/JPA.md)
 - [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
