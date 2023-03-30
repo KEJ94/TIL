@@ -30,8 +30,8 @@
   
 ### MariaDB
   - [Bind-Address](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md) 
-  - [WITH RECURSIVE](https://github.com/KEJ94/TIL/blob/main/DB/재귀쿼리.md) 
-  - [FIND_IN_SET](https://github.com/KEJ94/TIL/blob/main/DB/FIND_IN_SET.md) 
+  - [WITH RECURSIVE](https://github.com/KEJ94/TIL/blob/main/DB/재귀쿼리.md) 23/03/30
+  - [FIND_IN_SET](https://github.com/KEJ94/TIL/blob/main/DB/FIND_IN_SET.md) 23/03/30
 ### ETC
 - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
 - [GraphQL](https://github.com/KEJ94/TIL/blob/main/ETC/GraphQL.md)
