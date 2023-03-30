@@ -43,9 +43,5 @@
    - [SOLID](https://github.com/KEJ94/TIL/blob/main/Java/SOLID.md)
    - [Amazon Web Service](https://github.com/KEJ94/TIL/blob/main/AWS/기본.md)
    - [Load Balancing](https://github.com/KEJ94/TIL/blob/main/Network/로드밸런싱.md)
- - HTTP
-   - [인터넷 네트워크](https://github.com/KEJ94/TIL/blob/main/Network/인터넷_네트워크.md)
-   - [URI와 웹 브라우저 요청 흐름](https://github.com/KEJ94/TIL/blob/main/Network/URI와_웹_브라우저_요청_흐름.md)
-   - [기본](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_기본.md)
-   - [메서드](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_메서드.md)
-   - [헤더](https://github.com/KEJ94/TIL/blob/main/Network/HTTP_헤더.md)
+   - [HTTP](https://github.com/KEJ94/TIL/blob/main/ETC/HTTP.md) 
+
