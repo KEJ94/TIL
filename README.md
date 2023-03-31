@@ -29,8 +29,8 @@
   - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Spring/WrapperClass.md)
   
 ### MariaDB 
-  - [WITH RECURSIVE](https://github.com/KEJ94/TIL/blob/main/DB/재귀쿼리.md) 23/03/30
-  - [FIND_IN_SET](https://github.com/KEJ94/TIL/blob/main/DB/FIND_IN_SET.md) 23/03/30
+  - [WITH RECURSIVE](https://github.com/KEJ94/TIL/blob/main/MariaDB/재귀쿼리.md) 23/03/30
+  - [FIND_IN_SET](https://github.com/KEJ94/TIL/blob/main/MariaDB/FIND_IN_SET.md) 23/03/30
 
 ### ETC
 - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
