@@ -20,13 +20,13 @@
   - [@ExceptionHandler, @ControllerAdvice](https://github.com/KEJ94/TIL/blob/main/Spring/ControllerAdvice.md) 23/03/21
   - [@Async](https://github.com/KEJ94/TIL/blob/main/Spring/비동기_메서드.md)
 - Library
-  - [AWS SDK](https://github.com/KEJ94/TIL/blob/main/AWS/Java_SDK.md)
-  - [AWS SSH](https://github.com/KEJ94/TIL/blob/main/AWS/SSH_연결.md)
-  - [JNI](https://github.com/KEJ94/TIL/blob/main/Java/JNI.md)
+  - [AWS SDK](https://github.com/KEJ94/TIL/blob/main/Spring/Java_SDK.md)
+  - [AWS SSH](https://github.com/KEJ94/TIL/blob/main/Spring/SSH_연결.md)
+  - [JNI](https://github.com/KEJ94/TIL/blob/main/Spring/JNI.md)
 - Java
-  - [Runtime Environment](https://github.com/KEJ94/TIL/blob/main/Java/실행.md)
-  - [Input](https://github.com/KEJ94/TIL/blob/main/Java/입력.md)
-  - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Java/WrapperClass.md)
+  - [Runtime Environment](https://github.com/KEJ94/TIL/blob/main/Spring/실행.md)
+  - [Input](https://github.com/KEJ94/TIL/blob/main/Spring/입력.md)
+  - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Spring/WrapperClass.md)
   
 ### MariaDB 
   - [WITH RECURSIVE](https://github.com/KEJ94/TIL/blob/main/DB/재귀쿼리.md) 23/03/30
