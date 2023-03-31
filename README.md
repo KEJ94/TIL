@@ -2,17 +2,17 @@
 ### Vue
 - [Instance(```new Vue()```)](https://github.com/KEJ94/TIL/blob/main/JS/Vue/Instance.md) 23/03/24    
 - ES6+
-  - [Const & Let](https://github.com/KEJ94/TIL/blob/main/JS/ES6/constlet.md) 23/03/14 
-  - [Arrow Function(```=>```)](https://github.com/KEJ94/TIL/blob/main/JS/ES6/arrowfunction.md) 23/03/13 
-  - [Enhanced Object Literal(```var obj = {a,b,c}```)](https://github.com/KEJ94/TIL/blob/main/JS/ES6/enhanced_object_literal.md) 23/03/14  
-  - [Spread Operator(```...```)](https://github.com/KEJ94/TIL/blob/main/JS/ES6/spread_operator.md) 23/03/14  
-  - [Template Literal(``` `` ```)](https://github.com/KEJ94/TIL/blob/main/JS/ES6/template_literal.md) 23/03/15  
-  - [Destructuring(```var {a,b,c} = obj```)](https://github.com/KEJ94/TIL/blob/main/JS/ES6/destructuring.md) 23/03/15  
-  - [Async & Await](https://github.com/KEJ94/TIL/blob/main/JS/ES6/asyncawait.md) 23/03/14 
+  - [Const & Let](https://github.com/KEJ94/TIL/blob/main/JS/Vue/constlet.md) 23/03/14 
+  - [Arrow Function(```=>```)](https://github.com/KEJ94/TIL/blob/main/Vue/arrowfunction.md) 23/03/13 
+  - [Enhanced Object Literal(```var obj = {a,b,c}```)](https://github.com/KEJ94/TIL/blob/main/Vue/enhanced_object_literal.md) 23/03/14  
+  - [Spread Operator(```...```)](https://github.com/KEJ94/TIL/blob/main/Vue/spread_operator.md) 23/03/14  
+  - [Template Literal(``` `` ```)](https://github.com/KEJ94/TIL/blob/main/Vue/template_literal.md) 23/03/15  
+  - [Destructuring(```var {a,b,c} = obj```)](https://github.com/KEJ94/TIL/blob/main/Vue/destructuring.md) 23/03/15  
+  - [Async & Await](https://github.com/KEJ94/TIL/blob/main/Vue/asyncawait.md) 23/03/14 
   - [Modules](https://github.com/KEJ94/TIL/blob/main/JS/ES6/modules.md) 23/03/15 
-  - [Nullish coalescing operator(```??```)](https://github.com/KEJ94/TIL/blob/main/JS/ES6/nullish_coalescing_operator.md) 23/03/15 
-  - [Default parameter](https://github.com/KEJ94/TIL/blob/main/JS/ES6/default_parameter.md) 23/03/15 
-  - [Optional Chaning(```?.```)](https://github.com/KEJ94/TIL/blob/main/JS/ES6/optional_chaning.md) 23/03/15 
+  - [Nullish coalescing operator(```??```)](https://github.com/KEJ94/TIL/blob/main/Vue/nullish_coalescing_operator.md) 23/03/15 
+  - [Default parameter](https://github.com/KEJ94/TIL/blob/main/Vue/default_parameter.md) 23/03/15 
+  - [Optional Chaning(```?.```)](https://github.com/KEJ94/TIL/blob/main/Vue/optional_chaning.md) 23/03/15 
 
 ### Spring
 - Annotation
