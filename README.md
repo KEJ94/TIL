@@ -9,7 +9,7 @@
   - [Template Literal(``` `` ```)](https://github.com/KEJ94/TIL/blob/main/Vue/template_literal.md) 23/03/15  
   - [Destructuring(```var {a,b,c} = obj```)](https://github.com/KEJ94/TIL/blob/main/Vue/destructuring.md) 23/03/15  
   - [Async & Await](https://github.com/KEJ94/TIL/blob/main/Vue/asyncawait.md) 23/03/14 
-  - [Modules](https://github.com/KEJ94/TIL/blob/main/JS/ES6/modules.md) 23/03/15 
+  - [Modules](https://github.com/KEJ94/TIL/blob/main/Vue/modules.md) 23/03/15 
   - [Nullish coalescing operator(```??```)](https://github.com/KEJ94/TIL/blob/main/Vue/nullish_coalescing_operator.md) 23/03/15 
   - [Default parameter](https://github.com/KEJ94/TIL/blob/main/Vue/default_parameter.md) 23/03/15 
   - [Optional Chaning(```?.```)](https://github.com/KEJ94/TIL/blob/main/Vue/optional_chaning.md) 23/03/15 
