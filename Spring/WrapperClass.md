@@ -13,7 +13,7 @@
 
 
 ### Boxing (기본 타입의 값을 포장 객체로 만드는 과정)
-```
+```java
 int num = 10;
 Integer boxing = new Integer(num)
 ```
@@ -24,7 +24,7 @@ Integer num = new Integer(10);
 int unboxing = num.intValue();
 ```
 ### AutoBoxing & AutoUnBoxing (JDK 1.5 부터)
-```
+```java
 Integer a = new Integer(10);
 int b = a;
 Integer c = b
@@ -34,7 +34,7 @@ Integer c = b
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FZolLT%2Fbtq8R0SHB75%2FIfszu8aary6ZEM8Jo6tANK%2Fimg.png)  
 
 ### 값 비교
-```
+```java
 Integer num = new Integer(10); //래퍼 클래스1
 Integer num2 = new Integer(10); //래퍼 클래스2
 int i = 10; //기본타입
@@ -46,12 +46,12 @@ System.out.println("래퍼클래스.equals(래퍼클래스) : "+num.equals(num2)
 ```
 ### 사용하는 이유
 - __첫째__ 제네릭
-```
+```java
 HashMap<Object, int> // Syntax error, insert "Dimensions" to complete ReferenceType
 HashMap<Object, Integer>
 ```
 - __둘째__ 기본 자료형의 값을 문자열로 변환 혹은 반대 경우
-```
+```java
 String str = "10";
 String str2 = "10.5";
 String str3 = "true";
