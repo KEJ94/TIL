@@ -47,4 +47,4 @@
 - [Flyway](https://github.com/KEJ94/TIL/blob/main/ETC/Flyway.md)
 - [MariaDB Bind-Address](https://github.com/KEJ94/TIL/blob/main/ETC/외부접속.md)
 - [HTTP](https://github.com/KEJ94/TIL/blob/main/ETC/HTTP.md)
-- [Code](https://github.com/KEJ94/TIL/blob/main/ETC/Code.md)
+- [코드조각](https://github.com/KEJ94/TIL/blob/main/ETC/Code.md)
