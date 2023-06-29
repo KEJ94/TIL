@@ -32,6 +32,7 @@
 ### MariaDB 
   - [WITH RECURSIVE](https://github.com/KEJ94/TIL/blob/main/MariaDB/재귀쿼리.md) 23/03/30
   - [FIND_IN_SET](https://github.com/KEJ94/TIL/blob/main/MariaDB/FIND_IN_SET.md) 23/03/30
+  - [Bind-Address](https://github.com/KEJ94/TIL/blob/main/ETC/외부접속.md)
 
 ### ETC
 - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
@@ -43,6 +44,5 @@
 - [JPA](https://github.com/KEJ94/TIL/blob/main/ETC/JPA.md)
 - [SOLID](https://github.com/KEJ94/TIL/blob/main/ETC/SOLID.md)
 - [Flyway](https://github.com/KEJ94/TIL/blob/main/ETC/Flyway.md)
-- [MariaDB Bind-Address](https://github.com/KEJ94/TIL/blob/main/ETC/외부접속.md)
 - [HTTP](https://github.com/KEJ94/TIL/blob/main/ETC/HTTP.md)
 - [코드조각](https://github.com/KEJ94/TIL/blob/main/ETC/Code.md)
