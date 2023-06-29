@@ -33,7 +33,7 @@
   - [WITH RECURSIVE](https://github.com/KEJ94/TIL/blob/main/MariaDB/재귀쿼리.md) 23/03/30
   - [FIND_IN_SET](https://github.com/KEJ94/TIL/blob/main/MariaDB/FIND_IN_SET.md) 23/03/30
   - [Bind-Address](https://github.com/KEJ94/TIL/blob/main/ETC/외부접속.md)
-  - [Flyway](https://github.com/KEJ94/TIL/blob/main/ETC/Flyway.md)
+  - [FLYWAY](https://github.com/KEJ94/TIL/blob/main/ETC/Flyway.md)
 
 ### ETC
 - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
