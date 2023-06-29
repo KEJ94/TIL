@@ -42,7 +42,6 @@
 - [Redis](https://github.com/KEJ94/TIL/blob/main/ETC/Redis.md)
 - [JPA](https://github.com/KEJ94/TIL/blob/main/ETC/JPA.md)
 - [SOLID](https://github.com/KEJ94/TIL/blob/main/ETC/SOLID.md)
-- [Amazon Web Service](https://github.com/KEJ94/TIL/blob/main/ETC/기본.md)
 - [Flyway](https://github.com/KEJ94/TIL/blob/main/ETC/Flyway.md)
 - [MariaDB Bind-Address](https://github.com/KEJ94/TIL/blob/main/ETC/외부접속.md)
 - [HTTP](https://github.com/KEJ94/TIL/blob/main/ETC/HTTP.md)
