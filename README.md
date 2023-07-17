@@ -34,7 +34,7 @@
   - [FIND_IN_SET](https://github.com/KEJ94/TIL/blob/main/MariaDB/FIND_IN_SET.md) 23/03/30
   - [Bind-Address](https://github.com/KEJ94/TIL/blob/main/ETC/외부접속.md)
   - [FLYWAY](https://github.com/KEJ94/TIL/blob/main/ETC/Flyway.md)
-  - [Foreign Keys](https://github.com/KEJ94/TIL/blob/main/MariaDB/ForeignKeys.md)
+  - [Foreign Keys](https://github.com/KEJ94/TIL/blob/main/MariaDB/ForeignKeys.md) 23/07/17
 
 ### ETC
 - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
