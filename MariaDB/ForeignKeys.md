@@ -5,7 +5,7 @@ SELECT TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE COLUMN_NAME='컬럼명';
 ```
-DBeaver / Foreign Keys  
+확인한 테이블에 외래키 할당
 ```
 이름 : fk_현재테이블명_원본테이블명_현재참조컬럼
   └  현재참조컬럼
