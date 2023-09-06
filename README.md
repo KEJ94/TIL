@@ -36,6 +36,9 @@
   - [FLYWAY](https://github.com/KEJ94/TIL/blob/main/ETC/Flyway.md)
   - [Foreign Keys](https://github.com/KEJ94/TIL/blob/main/MariaDB/ForeignKeys.md) 23/07/17
 
+### Error
+  - [java.lang.OutOfMemoryError](https://github.com/KEJ94/TIL/blob/main/Error/OutOfMemoryError.md) 23/09/06
+
 ### ETC
 - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
 - [GraphQL](https://github.com/KEJ94/TIL/blob/main/ETC/GraphQL.md)
