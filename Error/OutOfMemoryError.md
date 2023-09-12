@@ -22,9 +22,9 @@ JAVA_OPTS="-Xms1024m -Xmx2048m"
 # Get standard environment variables
 PRGDIR=`dirname "$PRG"`
 ```
-> default 힙 메모리는 64mb
+> 참고 : default 힙 메모리는 64mb
 
-ps -ef | grep tomcat
+```ps -ef | grep tomcat```
 ```.sh
 vada     16122     1 99 07:39 ?        00:00:59 /usr/lib/jvm/default-java/bin/java -
 Djava.util.logging.config.file=/var/lib/tomcat8/conf/logging.properties -
