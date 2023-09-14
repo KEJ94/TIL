@@ -1,19 +1,16 @@
 # JNI (Java Native Interface)  
 JNI 는 C, C++ 로 만들어진 고유기능 즉, 함수를 Java 메서드와 연결한다.  
 그로인해 Java 메서드를 호출 할 시, C나 C++ 로 작성된 함수가 실행된다.  
-<br><br>
 ## MinGw 다운로드  
 https://www.mingw-w64.org/  
 C 컴파일을 위해 MinGw 를 설치한다.  
 실습 당시(2022-07-27) 최신버전의 exe파일에 문제가있어 zip파일로 다운로드 후 환경변수 지정  
-<br><br>
 ## 실습 순서 (Window)  
 실습 목표 : Spring MVC 프로젝트의 util 디렉터리 안에 JNI 클래스를 만들어서 C로 작성된 함수 호출  
 - 자바 코드 작성
 - 자바 헤더 생성
 - C에 자바 헤더 첨부
 - dll 생성  
-<br><br>
 ## 1. 자바 코드 작성  
 __[VADAJni.java]__
 ```java
@@ -37,7 +34,6 @@ public class VADAJni {
     }
 }
 ```
-<br><br>
 ## 2. 자바 헤더 생성
 컴파일은 클래스 파일이 위치한 상위 디렉터리까지 이동 후 명령어 실행  
 <br>
@@ -76,7 +72,6 @@ JNIEXPORT jint JNICALL Java_com_jiransnc_vada_util_VADAJni_conn();
 #endif
 #endif
 ```  
-<br><br>
 ## 3. C에 자바 헤더 첨부  
 __[VADAJni.c]__ src 에 C파일 생성
 ```c
@@ -89,7 +84,6 @@ JNIEXPORT jint JNICALL Java_com_jiransnc_vada_util_VADAJni_conn(){
     printf("success");
 }
 ```  
-<br><br>
 ## 4. dll 생성 
 C:\Users\kth\Documents\GitHub\vada\src> 경로에 아래 파일 2개 추가  
 jdk path > include > __jni.h__   
@@ -103,7 +97,6 @@ __[CMD]__ VADAJni.dll 파일 생성 후 VADAJni.java 실행
 ```
 C:\Users\kth\Documents\GitHub\vada\src>gcc -shared -o VADAJni.dll VADAJni.o
 ```  
-<br><br>
 ## 특이사항
 - VADAJni.h #include <jni.h> 에서 "jni.h" 로 수정
 - VADAJni.h 안의 conn 내용 수정 (매개변수 제거)
