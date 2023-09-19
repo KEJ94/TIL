@@ -36,6 +36,10 @@
   - [FLYWAY](https://github.com/KEJ94/TIL/blob/main/ETC/Flyway.md)
   - [Foreign Keys](https://github.com/KEJ94/TIL/blob/main/MariaDB/ForeignKeys.md) 23/07/17
 
+### DesignPattern
+  - Creational
+    - [Singleton](https://github.com/KEJ94/TIL/blob/main/DesignPattern/Singleton.md) 23/09/19
+
 ### Error
   - [java.lang.OutOfMemoryError](https://github.com/KEJ94/TIL/blob/main/Error/OutOfMemoryError.md) 23/09/06
 
