@@ -37,7 +37,7 @@
   - [Foreign Keys](https://github.com/KEJ94/TIL/blob/main/MariaDB/ForeignKeys.md) 23/07/17
 
 ### OOP
-  - [개발자가 반드시 정복해야 할 객체 지향과 디자인 패턴](https://github.com/KEJ94/TIL/blob/main/OOP/개발자가-반드시-정복해야-할-객체-지향과-디자인-패턴.md)
+  - [📚 개발자가 반드시 정복해야 할 객체 지향과 디자인 패턴](https://github.com/KEJ94/TIL/blob/main/OOP/개발자가-반드시-정복해야-할-객체-지향과-디자인-패턴.md)
 
 ### Error
   - [java.lang.OutOfMemoryError](https://github.com/KEJ94/TIL/blob/main/Error/OutOfMemoryError.md) 23/09/06
