@@ -38,8 +38,6 @@
 
 ### OOP
   - [개발자가 반드시 정복해야 할 객체 지향과 디자인 패턴](https://github.com/KEJ94/TIL/blob/main/OOP/개발자가-반드시-정복해야-할-객체-지향과-디자인-패턴.md)
-  - 디자인패턴
-    - [싱글톤](https://github.com/KEJ94/TIL/blob/main/DesignPattern/Singleton.md) 23/09/19
 
 ### Error
   - [java.lang.OutOfMemoryError](https://github.com/KEJ94/TIL/blob/main/Error/OutOfMemoryError.md) 23/09/06
