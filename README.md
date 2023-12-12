@@ -28,7 +28,7 @@
   - [Runtime Environment](https://github.com/KEJ94/TIL/blob/main/Spring/실행.md)
   - [Input](https://github.com/KEJ94/TIL/blob/main/Spring/입력.md)
   - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Spring/WrapperClass.md)
-  
+  - [Base64](https://github.com/KEJ94/TIL/blob/main/Spring/Base64.md)
 ### DB 
   - [WITH RECURSIVE](https://github.com/KEJ94/TIL/blob/main/MariaDB/재귀쿼리.md) 23/03/30
   - [FIND_IN_SET](https://github.com/KEJ94/TIL/blob/main/MariaDB/FIND_IN_SET.md) 23/03/30
