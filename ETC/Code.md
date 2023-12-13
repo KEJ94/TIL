@@ -1,2 +1,3 @@
 - [그리드 사이즈 조절 가능한 테이블](https://github.com/KEJ94/TIL/blob/main/ETC/GridResizeble.md)
 - [로컬서버포스트맨](https://github.com/KEJ94/TIL/blob/main/ETC/LocalPostMan.md)
+- [AJAX Blob](https://github.com/KEJ94/TIL/blob/main/ETC/AJAX_Blob.md)
