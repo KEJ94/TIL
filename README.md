@@ -12,6 +12,7 @@
   - [AWS SDK](https://github.com/KEJ94/TIL/blob/main/Spring/Java_SDK.md)
   - [AWS SSH](https://github.com/KEJ94/TIL/blob/main/Spring/SSH_연결.md)
   - [JNI](https://github.com/KEJ94/TIL/blob/main/Spring/JNI.md)
+  - [java.lang.OutOfMemoryError](https://github.com/KEJ94/TIL/blob/main/Error/OutOfMemoryError.md) 23/09/06
 - DB
   - [WITH RECURSIVE](https://github.com/KEJ94/TIL/blob/main/DB/재귀쿼리.md) 23/03/30
   - [FIND_IN_SET](https://github.com/KEJ94/TIL/blob/main/DB/FIND_IN_SET.md) 23/03/30
@@ -20,8 +21,6 @@
   - [Foreign Keys](https://github.com/KEJ94/TIL/blob/main/DB/ForeignKeys.md) 23/07/17
 - OOP
   - [📚 개발자가 반드시 정복해야 할 객체 지향과 디자인 패턴](https://github.com/KEJ94/TIL/blob/main/OOP/개발자가-반드시-정복해야-할-객체-지향과-디자인-패턴.md)
-- Error
-  - [java.lang.OutOfMemoryError](https://github.com/KEJ94/TIL/blob/main/Error/OutOfMemoryError.md) 23/09/06
 ### Front-End
 - [Instance(```new Vue()```)](https://github.com/KEJ94/TIL/blob/main/Vue/Instance.md) 23/03/24    
 - ES6+
