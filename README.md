@@ -1,5 +1,29 @@
 # TIL
-### Vue
+### Back-End
+- Spring
+  - [Spring Cache](https://github.com/KEJ94/TIL/blob/main/Spring/SpringCache.md) 23/04/28
+  - [@Valid(Custom)](https://github.com/KEJ94/TIL/blob/main/Spring/Valid.md) 23/03/20
+  - [@ExceptionHandler, @ControllerAdvice](https://github.com/KEJ94/TIL/blob/main/Spring/ControllerAdvice.md) 23/03/21
+  - [@Async](https://github.com/KEJ94/TIL/blob/main/Spring/비동기_메서드.md)
+- Java
+  - [Runtime Environment](https://github.com/KEJ94/TIL/blob/main/Spring/실행.md)
+  - [Input](https://github.com/KEJ94/TIL/blob/main/Spring/입력.md)
+  - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Spring/WrapperClass.md)
+  - [Base64](https://github.com/KEJ94/TIL/blob/main/Spring/Base64.md)
+  - [AWS SDK](https://github.com/KEJ94/TIL/blob/main/Spring/Java_SDK.md)
+  - [AWS SSH](https://github.com/KEJ94/TIL/blob/main/Spring/SSH_연결.md)
+  - [JNI](https://github.com/KEJ94/TIL/blob/main/Spring/JNI.md)
+- DB
+  - [WITH RECURSIVE](https://github.com/KEJ94/TIL/blob/main/MariaDB/재귀쿼리.md) 23/03/30
+  - [FIND_IN_SET](https://github.com/KEJ94/TIL/blob/main/MariaDB/FIND_IN_SET.md) 23/03/30
+  - [Bind-Address](https://github.com/KEJ94/TIL/blob/main/ETC/외부접속.md)
+  - [FLYWAY](https://github.com/KEJ94/TIL/blob/main/ETC/Flyway.md)
+  - [Foreign Keys](https://github.com/KEJ94/TIL/blob/main/MariaDB/ForeignKeys.md) 23/07/17
+- OOP
+  - [📚 개발자가 반드시 정복해야 할 객체 지향과 디자인 패턴](https://github.com/KEJ94/TIL/blob/main/OOP/개발자가-반드시-정복해야-할-객체-지향과-디자인-패턴.md)
+- Error
+  - [java.lang.OutOfMemoryError](https://github.com/KEJ94/TIL/blob/main/Error/OutOfMemoryError.md) 23/09/06
+### Front-End
 - [Instance(```new Vue()```)](https://github.com/KEJ94/TIL/blob/main/Vue/Instance.md) 23/03/24    
 - ES6+
   - [Const & Let](https://github.com/KEJ94/TIL/blob/main/Vue/constlet.md) 23/03/14 
@@ -13,35 +37,6 @@
   - [Nullish coalescing operator(```??```)](https://github.com/KEJ94/TIL/blob/main/Vue/nullish_coalescing_operator.md) 23/03/15 
   - [Default parameter](https://github.com/KEJ94/TIL/blob/main/Vue/default_parameter.md) 23/03/15 
   - [Optional Chaning(```?.```)](https://github.com/KEJ94/TIL/blob/main/Vue/optional_chaning.md) 23/03/15 
-
-### Spring
-- [Spring Cache](https://github.com/KEJ94/TIL/blob/main/Spring/SpringCache.md) 23/04/28
-- Annotation
-  - [@Valid(Custom)](https://github.com/KEJ94/TIL/blob/main/Spring/Valid.md) 23/03/20
-  - [@ExceptionHandler, @ControllerAdvice](https://github.com/KEJ94/TIL/blob/main/Spring/ControllerAdvice.md) 23/03/21
-  - [@Async](https://github.com/KEJ94/TIL/blob/main/Spring/비동기_메서드.md)
-- Library
-  - [AWS SDK](https://github.com/KEJ94/TIL/blob/main/Spring/Java_SDK.md)
-  - [AWS SSH](https://github.com/KEJ94/TIL/blob/main/Spring/SSH_연결.md)
-  - [JNI](https://github.com/KEJ94/TIL/blob/main/Spring/JNI.md)
-- Java
-  - [Runtime Environment](https://github.com/KEJ94/TIL/blob/main/Spring/실행.md)
-  - [Input](https://github.com/KEJ94/TIL/blob/main/Spring/입력.md)
-  - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Spring/WrapperClass.md)
-  - [Base64](https://github.com/KEJ94/TIL/blob/main/Spring/Base64.md)
-### DB 
-  - [WITH RECURSIVE](https://github.com/KEJ94/TIL/blob/main/MariaDB/재귀쿼리.md) 23/03/30
-  - [FIND_IN_SET](https://github.com/KEJ94/TIL/blob/main/MariaDB/FIND_IN_SET.md) 23/03/30
-  - [Bind-Address](https://github.com/KEJ94/TIL/blob/main/ETC/외부접속.md)
-  - [FLYWAY](https://github.com/KEJ94/TIL/blob/main/ETC/Flyway.md)
-  - [Foreign Keys](https://github.com/KEJ94/TIL/blob/main/MariaDB/ForeignKeys.md) 23/07/17
-
-### OOP
-  - [📚 개발자가 반드시 정복해야 할 객체 지향과 디자인 패턴](https://github.com/KEJ94/TIL/blob/main/OOP/개발자가-반드시-정복해야-할-객체-지향과-디자인-패턴.md)
-
-### Error
-  - [java.lang.OutOfMemoryError](https://github.com/KEJ94/TIL/blob/main/Error/OutOfMemoryError.md) 23/09/06
-
 ### ETC
 - [CI/CD](https://github.com/KEJ94/TIL/blob/main/ETC/CI_CD.md)
 - [GraphQL](https://github.com/KEJ94/TIL/blob/main/ETC/GraphQL.md)
