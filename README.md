@@ -12,7 +12,7 @@
   - [AWS SDK](https://github.com/KEJ94/TIL/blob/main/Spring/Java_SDK.md)
   - [AWS SSH](https://github.com/KEJ94/TIL/blob/main/Spring/SSH_연결.md)
   - [JNI](https://github.com/KEJ94/TIL/blob/main/Spring/JNI.md)
-  - [java.lang.OutOfMemoryError](https://github.com/KEJ94/TIL/blob/main/Error/OutOfMemoryError.md) 23/09/06
+  - [java.lang.OutOfMemoryError](https://github.com/KEJ94/TIL/blob/main/Spring/OutOfMemoryError.md) 23/09/06
 - DB
   - [WITH RECURSIVE](https://github.com/KEJ94/TIL/blob/main/DB/재귀쿼리.md) 23/03/30
   - [FIND_IN_SET](https://github.com/KEJ94/TIL/blob/main/DB/FIND_IN_SET.md) 23/03/30
