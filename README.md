@@ -5,7 +5,6 @@
   - [@Valid(Custom)](https://github.com/KEJ94/TIL/blob/main/Spring/Valid.md) 23/03/20
   - [@ExceptionHandler, @ControllerAdvice](https://github.com/KEJ94/TIL/blob/main/Spring/ControllerAdvice.md) 23/03/21
   - [@Async](https://github.com/KEJ94/TIL/blob/main/Spring/비동기_메서드.md)
-- Java
   - [Runtime Environment](https://github.com/KEJ94/TIL/blob/main/Spring/실행.md)
   - [Input](https://github.com/KEJ94/TIL/blob/main/Spring/입력.md)
   - [WrapperClass](https://github.com/KEJ94/TIL/blob/main/Spring/WrapperClass.md)
