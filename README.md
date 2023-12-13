@@ -16,8 +16,8 @@
 - DB
   - [WITH RECURSIVE](https://github.com/KEJ94/TIL/blob/main/DB/재귀쿼리.md) 23/03/30
   - [FIND_IN_SET](https://github.com/KEJ94/TIL/blob/main/DB/FIND_IN_SET.md) 23/03/30
-  - [Bind-Address](https://github.com/KEJ94/TIL/blob/main/ETC/외부접속.md)
-  - [FLYWAY](https://github.com/KEJ94/TIL/blob/main/ETC/Flyway.md)
+  - [Bind-Address](https://github.com/KEJ94/TIL/blob/main/DB/외부접속.md)
+  - [FLYWAY](https://github.com/KEJ94/TIL/blob/main/DB/Flyway.md)
   - [Foreign Keys](https://github.com/KEJ94/TIL/blob/main/DB/ForeignKeys.md) 23/07/17
 - OOP
   - [📚 개발자가 반드시 정복해야 할 객체 지향과 디자인 패턴](https://github.com/KEJ94/TIL/blob/main/OOP/개발자가-반드시-정복해야-할-객체-지향과-디자인-패턴.md)
