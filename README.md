@@ -47,4 +47,4 @@
 - [SOLID](https://github.com/KEJ94/TIL/blob/main/ETC/SOLID.md)
 - [HTTP](https://github.com/KEJ94/TIL/blob/main/ETC/HTTP.md)
 - [코드조각](https://github.com/KEJ94/TIL/blob/main/ETC/Code.md)
-- [일일보고크롤링](https://github.com/KEJ94/TIL/blob/main/ETC/일일보고.md)
+- [GW일일보고매크로](https://github.com/KEJ94/TIL/blob/main/ETC/일일보고.md)
