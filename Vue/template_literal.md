@@ -1,4 +1,4 @@
-# 템플릿 리터럴 템플릿
+# 템플릿 리터럴
 기존의 ```var str = "Hello ES6"``` 와 같은 방식을 백틱(back-tick) 이라는 기호 (`)를 사용하여 정의 하는것이다.  
 ```js
 const str = `Template literals are string literals allowing embedded expressions.
