@@ -1,5 +1,7 @@
 ## Java ChatGPT Open AI 연동 예제
-
+__API KEY 발급__  
+https://platform.openai.com/settings/organization/billing/overview  
+<br/>
 __build.gradle__
 ```.gradle
 implementation 'com.squareup.okhttp3:okhttp:4.9.3'
