@@ -22,7 +22,7 @@
 - OOP
   - [📚 개발자가 반드시 정복해야 할 객체 지향과 디자인 패턴](https://github.com/KEJ94/TIL/blob/main/OOP/개발자가-반드시-정복해야-할-객체-지향과-디자인-패턴.md)
 - ETC
-  - [ChatGPT Open AI](https://github.com/KEJ94/TIL/blob/main/Spring/ChatGPT.md)
+  - [Open AI](https://github.com/KEJ94/TIL/blob/main/Spring/ChatGPT.md)
 ### Front-End
 - Vue
   - [Instance(```new Vue()```)](https://github.com/KEJ94/TIL/blob/main/Vue/Instance.md) 23/03/24    
